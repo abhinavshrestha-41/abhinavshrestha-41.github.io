@@ -48,8 +48,6 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-theme                    : minimal-mistakes-jekyll
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # SEO Related
 google_site_verification :
@@ -124,7 +122,6 @@ include:
   - .htaccess
   - _pages
   - files
-  - Gemfile
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -133,6 +130,7 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - Gemfile
   - Capfile
   - Gruntfile.js
   - LICENSE
