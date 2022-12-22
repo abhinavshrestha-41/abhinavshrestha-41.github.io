@@ -5,10 +5,13 @@ main:
     url: /about/
   
   - title: "CV"
-    url: /cv/
+    url: /cv/ 
   
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    url: /research/
+
+#   - title: "Publications"
+#     url: /publications/
     
 
 #  - title: "Talks"
