@@ -1,5 +1,12 @@
 
-
+---
+layout: archive
+permalink: /research/
+title: "Research"
+author_profile: true
+redirect_from:
+  - /resume
+---
 ## Current Research 
 *Research material and potential publications in the works, will post as soon as available!*
 
