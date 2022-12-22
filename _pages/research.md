@@ -21,8 +21,5 @@ URL: <a href = "https://coecollege.on.worldcat.org/oclc/1137317800" target="_bla
 
 ### Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa (Poster Presentation)
 
-<body>
-
 <iframe src="/files/poster.jpg" width="100%" height="700px" marginwidth="0"> </iframe>
 
-</body>
