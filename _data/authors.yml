@@ -1,18 +1,11 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Abhinav Shrestha:
+  name        : "Abhinav Shrestha"
+  uri         : "http://abhinavshrestha-41.github.io"
+  email       : "abhinavs@uidaho.edu"
+  bio         : "M.S. Student in Ecological Geography"
+  avatar      : "profile.jpg"
+  twitter     : "https://twitter.com/Abhinav_S41"
+# google_plus : "Name"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
