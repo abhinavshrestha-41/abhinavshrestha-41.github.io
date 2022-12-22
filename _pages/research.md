@@ -1,4 +1,4 @@
-<body>
+
 
 ## Current Research 
 *Research material and potential publications in the works, will post as soon as available!*
@@ -13,6 +13,8 @@ The study seeks to develop an understanding of the topographic characteristics t
 URL: <a href = "https://coecollege.on.worldcat.org/oclc/1137317800" target="_blank"> https://coecollege.on.worldcat.org/oclc/1137317800 </a>
 
 ### Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa (Poster Presentation)
+
+<body>
 
 <iframe src="/files/poster.jpg" width="100%" height="700px" marginwidth="0"> </iframe>
 
