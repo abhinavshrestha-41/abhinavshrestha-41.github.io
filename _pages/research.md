@@ -23,7 +23,7 @@ Project title: A comparison and development of methods for estimating sagebrush 
 *Publications are in the works, will post as soon as available!*
 ## Previous Research 
 
-### GIS-based study of topographical preference of common tree species in Palisades-Kepler State Park, IA (*Senior Honors Thesis, 2019*)
+### GIS-based study of topographical preference of common tree species in Palisades-Kepler State Park, IA (*Senior Honors Thesis, Coe College, Cedar Rapids, IA, 2019*)
 
 Abstract: 
 The study seeks to develop an understanding of the topographic characteristics that influence tree species composition of upland forests at Palisades-Kepler State Park, Linn County, Iowa. The role of Quercus alba, white oak, is a focus of this study. 123 plots containing 706 trees were sampled with the use of GPS receivers and field methods in the summer of 2017. The sampled field data were combined with its respective GPS data, and mapped on Digital Elevation Model imagery. Geographic Information System (GIS) analyses are used to develop a model of sites suitable for oak regeneration and maintenance within this forest.
@@ -32,6 +32,6 @@ Research blog URL: <a href = "https://oaksatpalisades.home.blog/" target="_blank
 
 Thesis info URL: <a href = "https://coecollege.on.worldcat.org/oclc/1137317800" target="_blank"> https://coecollege.on.worldcat.org/oclc/1137317800 </a>
 
-### Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa (*Poster Presentation, 2018*)
+### Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa (*Poster Presentation, Coe College Student Research Symposium, Cedar Rapids, IA, 2018*)
 
 <iframe src="/files/poster.pdf" width="100%" height="800px" marginwidth="0"> </iframe>
