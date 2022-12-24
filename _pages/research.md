@@ -21,6 +21,8 @@ Project title: A comparison and development of methods for estimating sagebrush 
 <br>
 <br>
 *Publications are in the works, will post as soon as available!*
+<hr>
+
 ## Previous Research 
 
 ### GIS-based study of topographical preference of common tree species in Palisades-Kepler State Park, IA 
