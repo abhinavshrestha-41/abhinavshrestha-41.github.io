@@ -1,6 +1,6 @@
 # Abhinav Shrestha's Github Academic Page
 
-**Welcome** to my Github Academic Page Repo! To view my website, please follow this link: [https://abhinavshrestha-41.github.io/](https://abhinavshrestha-41.github.io/). *This website is based on the Minimal Mistakes Jekyll Theme, more information on the [Acknowledgement/Citation](##Acknowledgement/Citation) section.*
+**Welcome** to my Github Academic Page Repo! To view my website, please follow this link: [https://abhinavshrestha-41.github.io/](https://abhinavshrestha-41.github.io/). This website is based on the Minimal Mistakes Jekyll Theme, more information on the *Acknowledgement/Citation* section.
 
 **Brief info** *(In case you don't want to navigate to the website!)* **:**
 <br> 
