@@ -19,8 +19,15 @@ Principle Investigator: <a href = "https://environment.wsu.edu/arjan-meddens/" t
 <br>
 Project title: A comparison and development of methods for estimating sagebrush shrub volume.
 <br>
-<br>
+
+### M.S. Project @UIdaho: 
+
+My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS photogrammetry based Structure for Motion (SfM) derived point cloud data for the classification and characterization of tree damage of a given study area (UAS mission area). I am currently in the preliminary phase of my project, but I plan to share findings and data as soon as they are available!<br>In the meantime, here is a fun way to investigate the utility of point cloud data in remote sensing of forests: https://rpubs.com/abhinav-shrestha/979241. This Rpubs webpage is a part of a final project for the R-programming in environmental science course at University of Idaho (ENVS 511), the analyses are not in depth as the final project was constrained by the limited time frame of the semester.
+
 *Publications are in the works, will post as soon as available!*
+
+
+
 <hr>
 
 ## Previous Research 
