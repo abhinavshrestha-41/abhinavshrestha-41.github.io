@@ -6,18 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1S4DNGHWWE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1S4DNGHWWE');
-</script>
-</head>
-
 ## Current Research
 
 **Graduate Research Assistant** on a <a href = "https://www.earthdata.nasa.gov/esds/csda" target="_blank">NASA Commercial SmallSat Data Analysis (NASA CSDA) project</a>. 

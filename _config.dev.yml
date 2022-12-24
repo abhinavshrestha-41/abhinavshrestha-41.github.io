@@ -3,7 +3,7 @@
 url: http://localhost:4000
 
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
     tracking_id: "G-1S4DNGHWWE"
 
