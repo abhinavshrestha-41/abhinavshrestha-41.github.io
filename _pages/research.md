@@ -6,6 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+<head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S4DNGHWWE"></script>
 <script>
@@ -15,6 +16,7 @@ redirect_from:
 
   gtag('config', 'G-1S4DNGHWWE');
 </script>
+</head>
 
 ## Current Research
 
