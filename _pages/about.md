@@ -7,6 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1S4DNGHWWE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1S4DNGHWWE');
+</script>
 
 Welcome to my GitHub Academic Page! My name is Abhinav Shrestha, I go by 'Abhi' for short (pronouced /ɑː-biː/; अभिनव in Nepali). I am an international M.S. student from Nepal in the <a href = "https://www.uidaho.edu/sci/ess" target="_blank">Department of Earth and Spatial Sciences</a> at the <a href = "https://www.uidaho.edu/" target="_blank">University of Idaho</a>. I am working in the Ecological Geography lab with <a href = "https://webpages.uidaho.edu/~jhicke/" target="_blank">Dr. Jeffrey Hicke</a>.
 
