@@ -5,7 +5,7 @@ url: http://localhost:4000
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-1S4DNGHWWE"
+    tracking_id: "G-HTWCHJRC6J"
 
 comments:
   disqus:
