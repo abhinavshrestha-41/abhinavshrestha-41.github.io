@@ -7,9 +7,6 @@ redirect_from:
   - /resume
 ---
 ## Current Research  
-<br>
-
-
 
 ### M.S. Project @University of Idaho: 
 
@@ -17,14 +14,12 @@ MS Thesis title: *Evaluating the utility of structure from motion-derived point 
 
 Project description: My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS photogrammetry based Structure for Motion (SfM) derived point cloud data for the classification and characterization of tree damage of a given study area (UAS mission area). I am currently in the data processing and methodology development phase of my project, but I plan to share findings and data as soon as they are available!  
 
-Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see ['Collaborative Research'](#collaborative-research) section below*). A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. Here is a sneak peek of the UAS-photogrammetry derived point cloud data I am working with:
+Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see ['Collaborative Research'](#collaborative-research) section below*). A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide" target="_blank">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. Here is a sneak peek of the UAS-photogrammetry derived point cloud data I am working with:
 
-<iframe src="/files/MSProject_PC_data_demo.png" width="100%" height="800px" marginwidth="0"> </iframe>
+<iframe src="/files/MSProject_PC_data_demo.png" width="100%"> </iframe>
 
 
 Additionally, here is an interesting way to investigate the utility of point cloud data in remote sensing of forests: [https://rpubs.com/abhinav-shrestha/979241](https://rpubs.com/abhinav-shrestha/979241). This Rpubs webpage is a part of a final project for the R-programming in environmental science course at University of Idaho (ENVS 511), the analyses are not in depth as the final project was constrained by the limited time frame of the semester.
-
-<br>
 
 ### Collaborative research:  
 
@@ -46,8 +41,6 @@ Project title: *A comparison and development of methods for estimating sagebrush
 <hr>
 
 ## Previous Research 
-
-<br>
 
 ### GIS-based study of topographical preference of common tree species in Palisades-Kepler State Park, IA 
 (*Senior Honors Thesis, Coe College, Cedar Rapids, IA, 2019*)
