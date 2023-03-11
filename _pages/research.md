@@ -57,3 +57,8 @@ Thesis info URL: <a href = "https://coecollege.on.worldcat.org/oclc/1137317800" 
 (*Poster Presentation, Coe College Student Research Symposium, Cedar Rapids, IA, 2018*)
 
 <iframe src="/files/poster.pdf" width="100%" height="800px" marginwidth="0"> </iframe>
+<hr>
+
+## GitHub Repository
+
+If you are interested reviewing the my R projects from the R-Programming course taken at UIdaho (ENVS 511) please follow the following link: [GitHub Repo for ENVS 511 R Programming Course.](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
