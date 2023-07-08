@@ -32,12 +32,14 @@ Project decription: This is a collaborative research project with researchers fr
 Principle Investigator: <a href = "https://environment.wsu.edu/arjan-meddens/" target="_blank">Dr. Arjan Meddens</a>, School of the Environment, Washington State University, Pullman, WA
 <br>
 <br>
-**Collaborative Researcher** on a UAV-based rangeland project with Ph.D student <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a> and <a href = "https://www.uidaho.edu/cnr/faculty/karl" target="_blank">Dr. Jason Karl</a> at the University of Idaho.
+**Collaborative Researcher** on a UAV-based rangeland project with Ph.D student <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a> (PI) and <a href = "https://www.uidaho.edu/cnr/faculty/karl" target="_blank">Dr. Jason Karl</a>  (faculty advisor) at the University of Idaho.
 <br>
-Project title: *A comparison and development of methods for estimating sagebrush shrub volume.*
+Project title: *A comparison and development of methods for estimating sagebrush shrub volume.*  
+Project description: This project is funded by the Joint Fire Science Program's <a href = "https://www.firescience.gov/JFSP_funding_announcements.cfm" target="_blank">Graduate Research and Innovation (GRIN) Fellowship</a> secured by PI Georgia Harrison, Department of Plant Sciences, University of Idaho and is a part of her PhD dissertation.  
+This research project evaluates the utility of drone imagery-derived data in estimating shrub canopy volume and compares it to field-based methods. The project also establishes a workflow for automated shrub detection and crown delineation by modifying programming tools currently available for forest-based remote sensing. My role in this research project were estimating the shrub volume from the drone data and establishing programming works using my experience with point cloud data and forestry-based remote sensing tools and techniques. 
 <br>
 
-*Publications are in the works, will post as soon as available!*
+*Publications are in the works, I will post as soon as available!*
 
 <hr>
 

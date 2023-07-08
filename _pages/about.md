@@ -21,7 +21,7 @@ The use of UAS in surveys and assessments has become popular with increasing acc
 I earned my B.A. in Biology and Environmental Science from Coe College, Cedar Rapids, IA in 2019. I worked with my honor's thesis advisor, <a href = "https://www.coe.edu/academics/majors-areas-study/biology/faculty"  target="_blank">Dr. Paula Sanchini</a> from the Department of Biology, in a multiyear GIS-based study on geographical preferences of tree species in a local state park. 
 
 ## Outside Academia (get to know me!)
-Besides countless hours spent working with Imagery on ArcGIS/ERDAS Imagine, debugging lines of code in R, and optimizing model reconstruction in Metashape. I love spending my free time going on a run, combing through thrift stores to find hidden gems, and trying out local cuisines! 
+Besides countless hours spent working with Imagery on ArcGIS/ERDAS Imagine, debugging lines of code in R, and optimizing model reconstruction in Metashape. I love spending my free time going on a run, combing through thrift stores to find hidden gems, and trying out local cuisines! Recently, I have gotten into the world of GNU-Linux and GNU-Linux-based distributions 🤓🤓🤓!
 <br>
 <br>
 I got my undergraduate degree in Cedar Rapids, Iowa and spent 2 more years working there as a Quality Control Lab Analyst at <a href = "https://www.adm.com/en-us/" target="_blank">ADM</a>. I spent a total of 6 years in Iowa and its safe to say I feel like an honorary Midwesterner! I speak Nepali as my native language and I am fluent in English, Hindi, and Urdu.  
