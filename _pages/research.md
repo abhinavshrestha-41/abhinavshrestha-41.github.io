@@ -39,7 +39,12 @@ Project description: This project is funded by the Joint Fire Science Program's 
 This research project evaluates the utility of drone imagery-derived data in estimating shrub canopy volume and compares it to field-based methods. The project also establishes a workflow for automated shrub detection and crown delineation by modifying programming tools currently available for forest-based remote sensing. My role in this research project were estimating the shrub volume from the drone data and establishing programming works using my experience with point cloud data and forestry-based remote sensing tools and techniques. 
 <br>
 
-*Publications are in the works, I will post as soon as available!*
+## Publications & Presentations
+
+Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Hanavan, <a href="https://static1.squarespace.com/static/620d090eacd0801f96740b97/t/643e865140b54f0d7e22609a/1681819218081/2023+WFIWC+Full+Program.pdf#page=51">“Using Remote Sensing to Study Tree Damage from Insects”</a>, keynote speaker, Western Forest Insect Work Conference (WFIWC), 25-27 April 2023, Seattle, WA.  
+
+⏳ *There are multple publications in the works.* ⏳ *I will post as soon as they are available!* 
+
 
 <hr>
 
