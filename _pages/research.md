@@ -22,7 +22,7 @@ Drone data used for this MS thesis was collected for a broader project assessing
 
 Additionally, here is an interesting way to investigate the utility of point cloud data in remote sensing of forests: [https://rpubs.com/abhinav-shrestha/979241](https://rpubs.com/abhinav-shrestha/979241). This Rpubs webpage is a part of a final project for the R-programming in environmental science course at University of Idaho (ENVS 511), the analyses are not in depth as the final project was constrained by the limited time frame of the semester.
 
-### Collaborative research:  
+## Collaborative research:  
 
 **Graduate Research Assistant** on a <a href = "https://www.earthdata.nasa.gov/esds/csda" target="_blank">NASA Commercial SmallSat Data Analysis (NASA CSDA) project</a>. 
 <br>
@@ -42,6 +42,8 @@ This research project evaluates the utility of drone imagery-derived data in est
 ## Publications & Presentations
 
 Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Hanavan, <a href="https://static1.squarespace.com/static/620d090eacd0801f96740b97/t/643e865140b54f0d7e22609a/1681819218081/2023+WFIWC+Full+Program.pdf#page=51">“Using Remote Sensing to Study Tree Damage from Insects”</a>, keynote speaker, Western Forest Insect Work Conference (WFIWC), 25-27 April 2023, Seattle, WA.  
+
+Harrison G.R., **A. Shrestha**, E. Strand, J. Karl. "A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds" *(In prep)*
 
 ⏳ *There are multple publications in the works.* ⏳ *I will post as soon as they are available!* 
 
