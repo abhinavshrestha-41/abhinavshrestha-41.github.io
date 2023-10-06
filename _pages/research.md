@@ -10,9 +10,11 @@ redirect_from:
 
 ### M.S. Project @University of Idaho: 
 
-MS Thesis title: *Evaluating the utility of structure from motion-derived point cloud for detecting insect damage using drone imagery of forests in Northern Rockies, USA.*
+MS Thesis title: *Evaluating the combination of reflectances and three-dimensional point cloud from drone imagery for detecting forest insect damage*
 
-Project description: My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS photogrammetry based Structure for Motion (SfM) derived point cloud data for the classification and characterization of tree damage of a given study area (UAS mission area). I am currently in the data processing and methodology development phase of my project, but I plan to share findings and data as soon as they are available!  
+Project description: My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS photogrammetry based point cloud data derived from Structure for Motion (SfM) for the classification and characterization of tree damage of a UAS mission area.  
+
+*I am currently developing the manuscript for my project and I plan to share findings and data as soon as they are ready and available!*
 
 Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see ['Collaborative Research'](#collaborative-research) section below*). A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide" target="_blank">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. UAS image acquisition mission was planned and operated by <a href="https://atstahl.github.io/">Dr. Amanda Stahl</a>. Here is a sneak peek of the UAS-photogrammetry derived point cloud data I am working with (*data is displayed on CloudCompare*):
 
@@ -36,14 +38,27 @@ Principle Investigator: <a href = "https://environment.wsu.edu/arjan-meddens/" t
 <br>
 Project title: *A comparison and development of methods for estimating sagebrush shrub volume.*  
 Project description: This project is funded by the Joint Fire Science Program's <a href = "https://www.firescience.gov/JFSP_funding_announcements.cfm" target="_blank">Graduate Research and Innovation (GRIN) Fellowship</a> secured by PI Georgia Harrison, Department of Plant Sciences, University of Idaho and is a part of her PhD dissertation.  
-This research project evaluates the utility of drone imagery-derived data in estimating shrub canopy volume and compares it to field-based methods. The project also establishes a workflow for automated shrub detection and crown delineation by modifying programming tools currently available for forest-based remote sensing. My role in this research project were estimating the shrub volume from the drone data and establishing programming works using my experience with point cloud data and forestry-based remote sensing tools and techniques. 
+We evaluated the utility of drone imagery-derived data in estimating shrub canopy volume and compared it to field-based methods. We also established a proof-of-concept workflow for automated shrub detection and crown delineation by modifying programming tools currently available for forest-based remote sensing. My role in this research project were estimating the shrub volume from the drone data and establishing programming works using my experience with point cloud data and forestry-based remote sensing tools and techniques. 
 <br>
 
 ## Publications & Presentations
 
-Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Hanavan, <a href="https://static1.squarespace.com/static/620d090eacd0801f96740b97/t/643e865140b54f0d7e22609a/1681819218081/2023+WFIWC+Full+Program.pdf#page=51">“Using Remote Sensing to Study Tree Damage from Insects”</a>, keynote speaker, Western Forest Insect Work Conference (WFIWC), 25-27 April 2023, Seattle, WA.  
+**Shrestha, A.**, JA. Hicke, “Evaluating the combination of reflectances and three-dimensional point cloud from drone imagery for detecting forest insect damage”. (*Publication in prep*)
 
-Harrison G.R., **A. Shrestha**, E. Strand, J. Karl. "A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds" *(In prep)*
+Harrison, G. R., **A. Shrestha**, EK. Strand, JW. Karl, “A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds”. (*Publication in prep*)
+
+Harrison, G. R., **A. Shrestha**, JW. Karl, <a href ="https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276129&mode=presInfo" target="_blank">“Seeing shrubs from the sky: an exploration of using drone-based method to estimate shrub canopy volume”</a>, contributed talk, <a href="https://esa.org/portland2023/" target="_blank">Ecological Society of America (ESA) Annual Conference, 6-11 August 2023, Portland, OR</a>.
+
+Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Hanavan, <a href="https://static1.squarespace.com/static/620d090eacd0801f96740b97/t/643e865140b54f0d7e22609a/1681819218081/2023+WFIWC+Full+Program.pdf#page=51" target="_blank">“Using Remote Sensing to Study Tree Damage from Insects”</a>, keynote speaker, Western Forest Insect Work Conference (WFIWC), 25-27 April 2023, Seattle, WA. 
+
+**Shrestha, A.**, <a href="https://coecollege.on.worldcat.org/oclc/1137317800" target="_blank">"GIS-Based Study on Topographical Preference of Common Tree Species in Palisades-Kepler State Park, IA".</a> Defended and submitted as an honors thesis to the Coe College Dept. of Biology, May 2019.
+
+**Shrestha, A.**, & Sanchini P. <a href="https://www.coe.edu/application/files/7515/5508/7412/2019_SRS_Program_ABSTRACTS.pdf#page=20" target="_blank">"A Geographic Information System (GIS)-based study on topographical preference of common tree species in Palisades-Kepler State Park"</a>. Presentation given at Coe College Student Research Symposium 2019.
+
+Obiesie, C., **Shrestha, A.**, & Sanchini, P. "Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa". Poster presented at Coe College Student Research Symposium 2018.
+
+Yoshida, K., Shrestha, A., & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions". Poster presented at 2018 Tri-State Undergraduate Psychology Research Conference at Loras College, Dubuque, IA.
+
 
 ⏳ *There are multple publications in the works.* ⏳ *I will post as soon as they are available!* 
 
@@ -71,3 +86,5 @@ Thesis info URL: <a href = "https://coecollege.on.worldcat.org/oclc/1137317800" 
 ## GitHub Repository
 
 If you are interested reviewing the my R projects from the R-Programming course taken at UIdaho (ENVS 511) please follow the following link: [GitHub Repo for ENVS 511 R Programming Course.](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
+
+⏳ *I am planning to update and release the GitHub repositories of the other projects I am involved in (including my MS thesis). The repositories will have detailed explanation of the code and a subset of the data set for test runs.* ⏳
