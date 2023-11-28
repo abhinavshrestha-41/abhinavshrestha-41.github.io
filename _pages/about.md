@@ -10,10 +10,10 @@ redirect_from:
 Welcome to my GitHub Academic Page! My name is Abhinav Shrestha, I go by 'Abhi' for short (pronouced /ɑː-biː/; अभिनव in Nepali). I am an international M.S. student from Nepal in the <a href = "https://www.uidaho.edu/sci/ess" target="_blank">Department of Earth and Spatial Sciences</a> at the <a href = "https://www.uidaho.edu/" target="_blank">University of Idaho</a>. I am working in the Ecological Geography lab with <a href = "https://webpages.uidaho.edu/~jhicke/" target="_blank">Dr. Jeffrey Hicke</a>.
 
 ## Current Research
-My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS Structure-from-Motion (SfM) derived photogrammetric point cloud data for the classification and characterization of tree damage of a given study area (UAS mission area). 
+My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Uncrewed Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS Structure-from-Motion (SfM) derived photogrammetric point cloud data for the classification and characterization of tree damage of a given study area (UAS mission area). 
 <br>
 <br>
-The use of UAS in surveys and assessments has become popular with increasing access to affordable Unmanned Aerial Vehicles (UAVs) and increased hardware and software computing capabilities from individuals and institutions. Therefore, I believe that there is a lot to learn about the utility of different UAV-derived data products!  
+The use of UAS in surveys and assessments has become popular with increasing access to affordable Uncrewed Aerial Vehicles (UAVs) and increased hardware and software computing capabilities from individuals and institutions. Therefore, I believe that there is a lot to learn about the utility of different UAV-derived data products!  
 
 *For more information please navigate to the [Research](/research/) section of this webpage*. 
 

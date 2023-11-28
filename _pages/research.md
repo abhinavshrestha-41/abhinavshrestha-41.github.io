@@ -10,7 +10,7 @@ redirect_from:
 
 ### M.S. Project @University of Idaho: 
 
-MS Thesis title: *Evaluating the combination of reflectances and three-dimensional point cloud from drone imagery for detecting forest insect damage*
+MS Thesis title: *Combining multispectral and three-dimensional data from drone imagery to detect forest insect damage: an evaluation of a novel approach in the northern Rocky Mountains*
 
 Project description: My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS photogrammetry based point cloud data derived from Structure for Motion (SfM) for the classification and characterization of tree damage of a UAS mission area.  
 
@@ -43,21 +43,23 @@ We evaluated the utility of drone imagery-derived data in estimating shrub canop
 
 ## Publications & Presentations
 
-**Shrestha, A.**, JA. Hicke, “Evaluating the combination of reflectances and three-dimensional point cloud from drone imagery for detecting forest insect damage”. (*Publication in prep*)
+**Shrestha, A.**, J. A. Hicke, A. J. H. Meddens, J. W. Karl, A. T. Stahl, Combining multispectral and three-dimensional data from drone imagery to detect forest insect damage: an evaluation of a novel approach in the northern Rocky Mountains, (*publication in prep*).
 
-Harrison, G. R., **A. Shrestha**, EK. Strand, JW. Karl, “A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds”. (*Publication in prep*)
+Hicke, J. A., B. C. Bright, R. P. Hanavan, A. T. Hudak, A. J. H. Meddens, **A. Shrestha**, A. T. Stahl, A review of remote sensing of forest insect and disease outbreaks: Bottom-up and top-down considerations for detection and attribution, *Remote Sensing of the Environment* (*under review*), 2023
+
+Harrison, G. R., **A. Shrestha**, E. K. Strand, J. W. Karl, A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds, *Ecosphere* (*under review*) 2023.
 
 Harrison, G. R., **A. Shrestha**, JW. Karl, <a href ="https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276129&mode=presInfo" target="_blank">“Seeing shrubs from the sky: an exploration of using drone-based method to estimate shrub canopy volume”</a>, contributed talk, <a href="https://esa.org/portland2023/" target="_blank">Ecological Society of America (ESA) Annual Conference, 6-11 August 2023, Portland, OR</a>.
 
 Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Hanavan, <a href="https://static1.squarespace.com/static/620d090eacd0801f96740b97/t/643e865140b54f0d7e22609a/1681819218081/2023+WFIWC+Full+Program.pdf#page=51" target="_blank">“Using Remote Sensing to Study Tree Damage from Insects”</a>, keynote speaker, Western Forest Insect Work Conference (WFIWC), 25-27 April 2023, Seattle, WA. 
 
-**Shrestha, A.**, <a href="https://coecollege.on.worldcat.org/oclc/1137317800" target="_blank">"GIS-Based Study on Topographical Preference of Common Tree Species in Palisades-Kepler State Park, IA".</a> Defended and submitted as an honors thesis to the Coe College Dept. of Biology, May 2019.
+**Shrestha, A.**, <a href="https://coecollege.on.worldcat.org/oclc/1137317800" target="_blank">GIS-Based Study on Topographical Preference of Common Tree Species in Palisades-Kepler State Park, IA,</a> *honors thesis*, Coe College Department of Biology, Cedar Rapids, IA, May 2019.
 
-**Shrestha, A.**, & Sanchini P. <a href="https://www.coe.edu/application/files/7515/5508/7412/2019_SRS_Program_ABSTRACTS.pdf#page=20" target="_blank">"A Geographic Information System (GIS)-based study on topographical preference of common tree species in Palisades-Kepler State Park"</a>. Presentation given at Coe College Student Research Symposium 2019.
+**Shrestha, A.**, & Sanchini P. <a href="https://www.coe.edu/application/files/7515/5508/7412/2019_SRS_Program_ABSTRACTS.pdf#page=20" target="_blank">"A Geographic Information System (GIS)-based study on topographical preference of common tree species in Palisades-Kepler State Park"</a>, contributed talk, Coe College Student Research Symposium, Coe College, Cedar Rapids, IA, 2019.
 
-Obiesie, C., **Shrestha, A.**, & Sanchini, P. "Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa". Poster presented at Coe College Student Research Symposium 2018.
+Obiesie, C., **Shrestha, A.**, & Sanchini, P. "Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa", poster presentation, Coe College Student Research Symposium, Coe College, Cedar Rapids, IA, 2019.
 
-Yoshida, K., Shrestha, A., & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions". Poster presented at 2018 Tri-State Undergraduate Psychology Research Conference at Loras College, Dubuque, IA.
+Yoshida, K., Shrestha, A., & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions", poster presentation, Tri-State Undergraduate Psychology Research Conference, Loras College, Dubuque, IA, 2018.
 
 
 ⏳ *There are multple publications in the works.* ⏳ *I will post as soon as they are available!* 
