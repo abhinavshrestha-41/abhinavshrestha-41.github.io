@@ -12,33 +12,43 @@ redirect_from:
 
 MS Thesis title: *Combining multispectral and three-dimensional data from drone imagery to detect forest insect damage: an evaluation of a novel approach in the northern Rocky Mountains*
 
-Project description: My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS photogrammetry based point cloud data derived from Structure for Motion (SfM) for the classification and characterization of tree damage of a UAS mission area.  
+Project description: My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS photogrammetry based point cloud data derived from Structure for Motion (SfM) for the classification and characterization of tree damage of a UAS mission area. I have used tools such as ArcGIS Pro, Agisoft Metashape, CloudCompare, and R and Python programming to create new algorithms and establish a novel methodology.   
 
 *I am currently developing the manuscript for my project and I plan to share findings and data as soon as they are ready and available!*
 
-Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see ['Collaborative Research'](#collaborative-research) section below*). A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide" target="_blank">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. UAS image acquisition mission was planned and operated by <a href="https://atstahl.github.io/">Dr. Amanda Stahl</a>. Here is a sneak peek of the UAS-photogrammetry derived point cloud data I am working with (*data is displayed on CloudCompare*):
+Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see ['Collaborative Research'](#collaborative-research) section below*).  
+
+A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide" target="_blank">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. UAS image acquisition mission was planned and operated by <a href="https://atstahl.github.io/">Dr. Amanda Stahl</a>. Here is a sneak peek of the UAS-photogrammetry derived point cloud data I am working with (*data is displayed on CloudCompare*):
 
 <img src="/files/MSProject_PC_data_demo.png" alt="Image showing point cloud data used in MS project displayed in CloudCompare" style="max-width: 100%; height: auto;">
 
-
-
-Additionally, here is an interesting way to investigate the utility of point cloud data in remote sensing of forests: [https://rpubs.com/abhinav-shrestha/979241](https://rpubs.com/abhinav-shrestha/979241). This Rpubs webpage is a part of a final project for the R-programming in environmental science course at University of Idaho (ENVS 511), the analyses are not in depth as the final project was constrained by the limited time frame of the semester.
-
 ## Collaborative research:  
 
-**Graduate Research Assistant** on a <a href = "https://www.earthdata.nasa.gov/esds/csda" target="_blank">NASA Commercial SmallSat Data Analysis (NASA CSDA) project</a>. 
+**Graduate Research Assistant**, <a href = "https://www.earthdata.nasa.gov/esds/csda" target="_blank">NASA Commercial SmallSat Data Analysis (NASA CSDA) project</a> 
 <br>
 Project title: *Using commercial satellite imagery to study insect outbreaks in the US: Outbreak characteristics and evaluation of Landsat-based algorithms.*  
-Project decription: This is a collaborative research project with researchers from the University of Idaho, Washington State University, and the US Forest Service Rocky Mountain Research Center.
+Project decription: This is a collaborative research project with researchers from the University of Idaho, Washington State University, and the US Forest Service Rocky Mountain Research Center.  
+Principle Investigator: <a href = "https://environment.wsu.edu/arjan-meddens/" target="_blank">Dr. Arjan Meddens</a>, School of the Environment, Washington State University, Pullman, WA  
+
+Responsibilities: 
+* conduct collaborative research to develop machine learning image classification algorithms (RF, MLC, NN) that assess forest mortality using high-resolution satellite imagery
+* assist field crew with forest inventory Abhinav Shrestha 3 data collection (FIA-based
+* perform logistics mapping by creating and maintain spatial databases
+* execute drone imagery acquisition missions
+
 <br>
-Principle Investigator: <a href = "https://environment.wsu.edu/arjan-meddens/" target="_blank">Dr. Arjan Meddens</a>, School of the Environment, Washington State University, Pullman, WA
+
+**Collaborative Researcher**, UAV-based rangeland project  
 <br>
-<br>
-**Collaborative Researcher** on a UAV-based rangeland project with Ph.D student <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a> (PI) and <a href = "https://www.uidaho.edu/cnr/faculty/karl" target="_blank">Dr. Jason Karl</a>  (faculty advisor) at the University of Idaho.
+Principle investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a>   
+Faculty advisor: <a href = "https://www.uidaho.edu/cnr/faculty/karl" target="_blank">Dr. Jason Karl</a>
 <br>
 Project title: *A comparison and development of methods for estimating sagebrush shrub volume.*  
 Project description: This project is funded by the Joint Fire Science Program's <a href = "https://www.firescience.gov/JFSP_funding_announcements.cfm" target="_blank">Graduate Research and Innovation (GRIN) Fellowship</a> secured by PI Georgia Harrison, Department of Plant Sciences, University of Idaho and is a part of her PhD dissertation.  
-We evaluated the utility of drone imagery-derived data in estimating shrub canopy volume and compared it to field-based methods. We also established a proof-of-concept workflow for automated shrub detection and crown delineation by modifying programming tools currently available for forest-based remote sensing. My role in this research project were estimating the shrub volume from the drone data and establishing programming works using my experience with point cloud data and forestry-based remote sensing tools and techniques. 
+
+Responsibilities:  
+* develop workflow of estimating shrub canopy volume with 3D data from drones by modifying currently available forestry-based remote sensing tools and techniques
+* use Git and [GitHub](#DroneShrub) for collaborative code sharing
 <br>
 
 ## Publications & Presentations
@@ -87,6 +97,24 @@ Thesis info URL: <a href = "https://coecollege.on.worldcat.org/oclc/1137317800" 
 
 ## GitHub Repository
 
-If you are interested reviewing the my R projects from the R-Programming course taken at UIdaho (ENVS 511) please follow the following link: [GitHub Repo for ENVS 511 R Programming Course.](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
+### Research repositories
 
-⏳ *I am planning to update and release the GitHub repositories of the other projects I am involved in (including my MS thesis). The repositories will have detailed explanation of the code and a subset of the data set for test runs.* ⏳
+<h4 id="DroneTopkill"> Top-kill & tree damage detection project (drone/point cloud) </h4>
+
+* Principle investigator: Abhinav Shrestha  
+⏳ *UNDER CONSTRUCTION* ⏳
+
+<h4 id="DroneShrub"> Drone shrub volume project </h4>
+
+* Pricipal investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a>. GitHub URL: https://github.com/gharrison159/UAVShrubVolume
+* [![DOI](https://zenodo.org/badge/553770123.svg)](https://zenodo.org/doi/10.5281/zenodo.10309158) 
+
+
+### EXTRA
+
+#### University of Idaho R-Programming course (ENVS 511): 
+
+* Course GitHub repo (MAIN): https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho
+* R-Shiny app repo: https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/RShiny_App 
+* Final project repo: https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/FinalProject 
+
