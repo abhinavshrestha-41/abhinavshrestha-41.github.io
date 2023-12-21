@@ -69,7 +69,7 @@ Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Han
 
 Obiesie, C., **Shrestha, A.**, & Sanchini, P. "Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa", poster presentation, Coe College Student Research Symposium, Coe College, Cedar Rapids, IA, 2019.
 
-Yoshida, K., Shrestha, A., & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions", poster presentation, Tri-State Undergraduate Psychology Research Conference, Loras College, Dubuque, IA, 2018.
+Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions", poster presentation, Tri-State Undergraduate Psychology Research Conference, Loras College, Dubuque, IA, 2018.
 
 
 ⏳ *There are multple publications in the works.* ⏳ *I will post as soon as they are available!* 
@@ -82,24 +82,23 @@ Yoshida, K., Shrestha, A., & Chihak, B. "How Roadway Design Affects Cyclist-Moto
 
 ### Research repositories
 
+<h4 id="DroneShrub"><a href = "https://github.com/gharrison159/UAVShrubVolume" target="_blank">Drone shrub volume project</a></h4>
+
+* Pricipal investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a>. 
+* Zenodo: [![DOI](https://zenodo.org/badge/553770123.svg)](https://zenodo.org/doi/10.5281/zenodo.10309158) 
+
 <h4 id="DroneTopkill"> Top-kill & tree damage detection project (drone/point cloud) </h4>
 
 * Principle investigator: Abhinav Shrestha  
-⏳ *UNDER CONSTRUCTION* ⏳
+⏳ *GitHub Repo UNDER CONSTRUCTION* ⏳
 
-<h4 id="DroneShrub"> Drone shrub volume project </h4>
+### Other code repositories 
 
-* Pricipal investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a>. GitHub URL: https://github.com/gharrison159/UAVShrubVolume
-* [![DOI](https://zenodo.org/badge/553770123.svg)](https://zenodo.org/doi/10.5281/zenodo.10309158) 
+#### University of Idaho R-Programming course (ENVS 511) 
 
-
-### EXTRA
-
-#### University of Idaho R-Programming course (ENVS 511): 
-
-* Course GitHub repo (MAIN): https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho
-* R-Shiny app repo: https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/RShiny_App 
-* Final project repo: https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/FinalProject 
+* [Course GitHub repo (`MAIN`)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
+* [R-Shiny app repo](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/RShiny_App)
+* [Final project repo](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/FinalProject) 
 
 <hr>
 
