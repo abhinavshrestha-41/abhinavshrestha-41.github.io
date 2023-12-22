@@ -59,6 +59,8 @@ Hicke, J. A., B. C. Bright, R. P. Hanavan, A. T. Hudak, A. J. H. Meddens, **A. S
 
 Harrison, G. R., **A. Shrestha**, E. K. Strand, J. W. Karl, A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds, *Ecosphere* (*under review*) 2023.
 
+**Shrestha, A.**, J. A. Hicke, A. J. H. Meddens, J. W. Karl, A. T. Stahl, [Evaluating the combination of reflectances and three-dimensional point cloud from drone imagery for detecting forest insect damage](https://perma.cc/8M9M-SXZE), contributed talk, University of Idaho GIS Day, November 2023.
+
 Harrison, G. R., **A. Shrestha**, JW. Karl, <a href ="https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276129&mode=presInfo" target="_blank">“Seeing shrubs from the sky: an exploration of using drone-based method to estimate shrub canopy volume”</a>, contributed talk, <a href="https://esa.org/portland2023/" target="_blank">Ecological Society of America (ESA) Annual Conference, 6-11 August 2023, Portland, OR</a>.
 
 Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Hanavan, <a href="https://static1.squarespace.com/static/620d090eacd0801f96740b97/t/643e865140b54f0d7e22609a/1681819218081/2023+WFIWC+Full+Program.pdf#page=51" target="_blank">“Using Remote Sensing to Study Tree Damage from Insects”</a>, keynote speaker, Western Forest Insect Work Conference (WFIWC), 25-27 April 2023, Seattle, WA. 
