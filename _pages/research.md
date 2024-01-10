@@ -14,13 +14,18 @@ MS Thesis title: *Combining multispectral and three-dimensional data from drone 
 
 Project description: My current M.S. research project focuses on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I am particularly interested in the utlity of UAS photogrammetry based point cloud data derived from Structure for Motion (SfM) for the classification and characterization of tree damage of a UAS mission area. I have used tools such as ArcGIS Pro, Agisoft Metashape, CloudCompare, and R and Python programming to create new algorithms and establish a novel methodology.   
 
-*I am currently developing the manuscript for my project and I plan to share findings and data as soon as they are ready and available!*
-
 Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see ['Collaborative Research'](#collaborative-research) section below*).  
 
 A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide" target="_blank">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. UAS image acquisition mission was planned and operated by <a href="https://atstahl.github.io/">Dr. Amanda Stahl</a>. Here is a sneak peek of the UAS-photogrammetry derived point cloud data I am working with (*data is displayed on CloudCompare*):
 
-<img src="/files/MSProject_PC_data_demo.png" alt="Image showing point cloud data used in MS project displayed in CloudCompare" style="max-width: 100%; height: auto;">
+<img src="/files/MSProject_PC_data_demo.png" alt="Image showing point cloud data used in MS project displayed in CloudCompare" style="max-width: 100%; height: auto;">  
+
+<br>
+
+> *I am currently developing the journal article for my project and I plan to share findings and data as soon as they are ready and available! In the meantime, checkout the [graphical abstract](####-Graphical-abstract) for the journal article in preparation for this project*
+
+#### Graphical abstract
+<img src="/files/GraphicalAbstract.png" alt="Graphical abstract for journal article" style="max-width: 100%; height: auto;">
 
 ## Collaborative research:  
 
@@ -53,9 +58,9 @@ Responsibilities:
 
 ## Publications & Presentations
 
-**Shrestha, A.**, J. A. Hicke, A. J. H. Meddens, J. W. Karl, A. T. Stahl, Combining multispectral and three-dimensional data from drone imagery to detect forest insect damage: an evaluation of a novel approach in the northern Rocky Mountains, (*publication in prep*).
+**Shrestha, A.**, J. A. Hicke, A. J. H. Meddens, J. W. Karl, A. T. Stahl, Evaluating a novel approach to detect the vertical structure of insect damage in trees using a combination of multispectral and three-dimensional data from drone imagery in the northern Rocky Mountains, USA, *Remote Sensing of the Environment* (*publication in prep*), 2024.
 
-Hicke, J. A., B. C. Bright, R. P. Hanavan, A. T. Hudak, A. J. H. Meddens, **A. Shrestha**, A. T. Stahl, A review of remote sensing of forest insect and disease outbreaks: Bottom-up and top-down considerations for detection and attribution, *Remote Sensing of the Environment* (*under review*), 2023
+Hicke, J. A., B. C. Bright, R. P. Hanavan, A. T. Hudak, A. J. H. Meddens, **A. Shrestha**, A. T. Stahl, A review of remote sensing of forest insect and disease outbreaks: Bottom-up and top-down considerations for detection and attribution, (*under review*), 2024
 
 Harrison, G. R., **A. Shrestha**, E. K. Strand, J. W. Karl, A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds, *Ecosphere* (*under review*) 2023.
 
@@ -89,7 +94,7 @@ Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-
 * Pricipal investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a>. 
 * Zenodo: [![DOI](https://zenodo.org/badge/553770123.svg)](https://zenodo.org/doi/10.5281/zenodo.10309158) 
 
-<h4 id="DroneTopkill"> Top-kill & tree damage detection project (drone/point cloud) </h4>
+<h4 id="DroneTopkill"> Top-kill & tree damage detection project (drone/point cloud)</h4>
 
 * Principle investigator: Abhinav Shrestha  
 ⏳ *GitHub Repo UNDER CONSTRUCTION* ⏳
