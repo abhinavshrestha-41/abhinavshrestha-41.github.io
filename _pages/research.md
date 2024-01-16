@@ -59,7 +59,7 @@ Here is a an interactive preview of the shurb delineation and segmentation on a 
 
 > *Use the left mouse button to tilt the 3D model and the mouse scroll wheel to zoom in and out. Individual colors represent segmented shrub.* 
 
-<iframe src="/files/shrub_las_Widget.html" width="100%" height="100%"></iframe>
+<iframe src="/files/shrub_las_Widget.html" width="100%" height="600"></iframe>
 
 <hr>
 
