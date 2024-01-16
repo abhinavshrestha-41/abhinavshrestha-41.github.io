@@ -53,14 +53,13 @@ Project description: This project is funded by the Joint Fire Science Program's 
 
 Responsibilities:  
 * develop workflow of estimating shrub canopy volume with 3D data from drones by modifying currently available forestry-based remote sensing tools and techniques
-* use Git and [GitHub](#DroneShrub) for collaborative code sharing.
+* use Git and [GitHub](#DroneShrub) for collaborative code sharing. GitHub repository URL: [https://github.com/gharrison159/UAVShrubVolume](https://github.com/gharrison159/UAVShrubVolume)
 
 Here is a an interactive preview of the shurb delineation and segmentation on a subset of the data for this project:
 
 > *Use the left mouse button to tilt the 3D model and the mouse scroll wheel to zoom in and out. Individual colors represent segmented shrub.* 
 
 <iframe src="/files/shrub_las_Widget.html" width="600" height="400"></iframe>
-
 
 <hr>
 
@@ -85,10 +84,6 @@ Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Han
 Obiesie, C., **Shrestha, A.**, & Sanchini, P. "Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa", poster presentation, Coe College Student Research Symposium, Coe College, Cedar Rapids, IA, 2019.
 
 Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions", poster presentation, Tri-State Undergraduate Psychology Research Conference, Loras College, Dubuque, IA, 2018.
-
-
-⏳ *There are multple publications in the works.* ⏳ *I will post as soon as they are available!* 
-
 
 <hr>
 
