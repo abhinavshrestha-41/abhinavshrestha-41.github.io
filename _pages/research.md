@@ -53,8 +53,14 @@ Project description: This project is funded by the Joint Fire Science Program's 
 
 Responsibilities:  
 * develop workflow of estimating shrub canopy volume with 3D data from drones by modifying currently available forestry-based remote sensing tools and techniques
-* use Git and [GitHub](#DroneShrub) for collaborative code sharing
-<br>
+* use Git and [GitHub](#DroneShrub) for collaborative code sharing.
+
+Here is a an interactive preview of the shurb delineation and segmentation on a subset of the data for this project:
+
+<iframe src="/files/shrub_las_Widget.html" width="600" height="400"></iframe>
+
+
+<hr>
 
 ## Publications & Presentations
 
