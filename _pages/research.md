@@ -57,6 +57,8 @@ Responsibilities:
 
 Here is a an interactive preview of the shurb delineation and segmentation on a subset of the data for this project:
 
+> *Use the left mouse button to tilt the 3D model and the mouse scroll wheel to zoom in and out. Individual colors represent segmented shrub.* 
+
 <iframe src="/files/shrub_las_Widget.html" width="600" height="400"></iframe>
 
 
