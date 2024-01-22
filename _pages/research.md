@@ -32,12 +32,19 @@ A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/h
 > *Use the left mouse button to tilt the 3D model and the mouse scroll wheel to zoom in and out.* 
 
 **True-color render and random forest classification of point cloud**  
-<iframe src="/files/widgetRGB.html" width="50%" height="600"></iframe> <iframe src="/files/widgetRFClass.html" width="50%" height="600"></iframe>
+<div style="display: flex;">
+  <iframe src="/files/widgetRGB.html" width="50%" height="600" style="flex: 1;"></iframe>
+  <iframe src="/files/widgetRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
+</div>
 
 > **Right panel:** True color representation of the point cloud. **Left panel:** RF classification; green is healthy, red is red, gray is gray, and black is shadow. 
 
 **Random forest classification probability and top-kill algorithm**  
-<iframe src="/files/widgetRFProb.html" width="50%" height="600"></iframe> <iframe src="/files/widgetRFClass_TK.html" width="50%" height="600"></iframe>
+<div style="display: flex;">
+  <iframe src="/files/widgetRFProb.html" width="50%" height="600" style="flex: 1;"></iframe>
+  <iframe src="/files/widgetRFClass_TK.html" width="50%" height="600" style="flex: 1;"></iframe>
+</div>
+
 
 > **Right panel:** The probabilities of classes shown in (b); darker colors represent higher probabilities of classification. **Left panel:** Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
 
