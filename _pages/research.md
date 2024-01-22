@@ -18,16 +18,16 @@ Drone data used for this MS thesis was collected for a broader project assessing
 
 > **The research for this project was conducted in the ancestral homelands of the Ksanka (Kootenai), Ql̓ispé (Pend d’Oreille), and Sélish (Salish) tribes of western Montana.**
 
-A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide" target="_blank">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. UAS image acquisition mission was planned and operated by <a href="https://atstahl.github.io/">Dr. Amanda Stahl</a>. Here is a sneak peek of the UAS-photogrammetry derived point cloud data I am working with (*data is displayed on CloudCompare*):
+A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide" target="_blank">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. UAS image acquisition mission was planned and operated by <a href="https://atstahl.github.io/">Dr. Amanda Stahl</a>. Here preview of the UAS-photogrammetry derived point cloud data I am working with (*data is displayed on CloudCompare*):
 
 <img src="/files/MSProject_PC_data_demo.png" alt="Image showing point cloud data used in MS project displayed in CloudCompare" style="max-width: 100%; height: auto;">  
 
-> *I am currently developing the journal article for my project and I plan to share findings and data as soon as they are ready and available! In the meantime, checkout the graphical abstract for the journal article in preparation for this project and example data product from the methodlogy applied on the point cloud of a single tree*
+> *I am currently developing the journal article for my project. In the meantime, checkout the graphical abstract for the journal article in preparation for this project and example data product from the methodlogy applied on the point cloud of a single tree*
 
-#### Graphical abstract
+### Graphical abstract
 <img src="/files/GraphicalAbstract.png" alt="Graphical abstract for journal article" style="max-width: 100%; height: auto;">
 
-#### Interactive preview of methodology applied on the point cloud of a single tree
+### Interactive preview of methodology applied on the point cloud of a single tree
 
 > *Use the left mouse button to tilt the 3D model and the mouse scroll wheel to zoom in and out.* 
 
@@ -46,7 +46,13 @@ A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/h
 </div>
 
 
-> **Right panel:** The probabilities of classes shown in (b); darker colors represent higher probabilities of classification. **Left panel:** Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
+> **Right panel:** The probabilities of classes shown in left panel on the above interactive layout; darker colors represent higher probabilities of classification. **Left panel:** Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
+
+#### I presented a condensed version of my MS research for University of Idaho's [GIS day 2023](https://www.lib.uidaho.edu/gisday/) as a contributed talk. 
+> To view the recording of the presentation, please follow this link: https://youtu.be/71AH3u_J9tQ.  
+> To view the pdf of the presentation file, please follow this link: https://objects.lib.uidaho.edu/gisday/shrestha_gisday2023.pdf 
+
+<hr>
 
 ## Collaborative research:  
 
