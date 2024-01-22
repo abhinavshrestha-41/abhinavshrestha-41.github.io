@@ -49,8 +49,8 @@ Random forest classification probability and top-kill algorithm
 > **Right panel:** The probabilities of classes shown in left panel on the above interactive layout; darker colors represent higher probabilities of classification. **Left panel:** Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
 
 > I presented a condensed version of my MS research for University of Idaho's [GIS day 2023](https://www.lib.uidaho.edu/gisday/) as a contributed talk. 
->> To view the recording of the presentation, please follow this link: https://youtu.be/71AH3u_J9tQ.  
->> To view the pdf of the presentation file, please follow this link: https://objects.lib.uidaho.edu/gisday/shrestha_gisday2023.pdf 
+>> To view the recording of the presentation, please follow this link: [https://youtu.be/71AH3u_J9tQ](https://youtu.be/71AH3u_J9tQ).  
+>> To view the pdf of the presentation file, please follow this link: [https://objects.lib.uidaho.edu/gisday/shrestha_gisday2023.pdf](https://objects.lib.uidaho.edu/gisday/shrestha_gisday2023.pdf) 
 
 <hr>
 
