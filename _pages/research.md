@@ -64,8 +64,8 @@ Principle Investigator: <a href = "https://environment.wsu.edu/arjan-meddens/" t
 
 Responsibilities: 
 * conduct collaborative research to develop machine learning image classification algorithms (RF, MLC, NN) that assess forest mortality using high-resolution satellite imagery
-* assist field crew with forest inventory Abhinav Shrestha 3 data collection (FIA-based
-* perform logistics mapping by creating and maintain spatial databases
+* assist field crew with forest inventory data collection (FIA-based)
+* create and maintain spatial databases,; perform logistics mapping 
 * execute drone imagery acquisition missions
 
 <br>
@@ -131,11 +131,16 @@ Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-
 
 ### Other code repositories 
 
-#### University of Idaho R-Programming course (ENVS 511) 
+**University of Idaho R-Programming course (ENVS 511)**
 
-* [Course GitHub repo (`MAIN`)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
-* [R-Shiny app repo](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/RShiny_App)
-* [Final project repo](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/FinalProject) 
+* [Course GitHub repository (`MAIN`)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
+* [Final project -- Rpubs website](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/FinalProject)
+>[![image](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/assets/116584687/0be2987c-f739-4c4f-b64d-0d8c0d0c52c9)](https://rpubs.com/abhinav-shrestha/979241)
+
+* [R-Shiny web app -- online dashboard](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/RShiny_App)
+> [![image](https://user-images.githubusercontent.com/116584687/224510962-ee9040d6-591f-4c4e-b802-119e868d5ff2.png)](https://abhinavshrestha.shinyapps.io/Assignment15_ShinyApp/)
+
+
 
 <hr>
 
