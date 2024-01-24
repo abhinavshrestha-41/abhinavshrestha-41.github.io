@@ -115,23 +115,19 @@ Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-
 <hr>
 
 
-## GitHub Repository
+## GitHub Repositories 
 
-### Research repositories
-
-<h4 id="DroneShrub"><a href = "https://github.com/gharrison159/UAVShrubVolume" target="_blank">Drone shrub volume project</a></h4>
+<h3 id="DroneShrub"><a href = "https://github.com/gharrison159/UAVShrubVolume" target="_blank">Drone shrub volume project</a></h3>
 
 * Pricipal investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a>. 
 * Zenodo: [![DOI](https://zenodo.org/badge/553770123.svg)](https://zenodo.org/doi/10.5281/zenodo.10309158) 
 
-<h4 id="DroneTopkill"> Point cloud classification and top-kill assessment </h4>
+<h3 id="DroneTopkill"> Point cloud classification and top-kill assessment </h3>
 
 * Principle investigator: Abhinav Shrestha  
 ⏳ *GitHub repo UNDER CONSTRUCTION* ⏳
 
-### Other code repositories 
-
-**University of Idaho R-Programming course (ENVS 511)**
+### University of Idaho R-Programming course (ENVS 511)
 
 * [Course GitHub repository (`MAIN`)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
 * [Final project -- Rpubs website](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/FinalProject)

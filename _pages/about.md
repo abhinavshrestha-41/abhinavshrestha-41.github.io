@@ -9,7 +9,7 @@ redirect_from:
 ---
 Welcome to my GitHub Academic Page! My name is Abhinav Shrestha, I go by 'Abhi' for short (pronouced /ɑː-biː/; अभिनव in Nepali). I a recent M.S. graduate from the <a href = "https://www.uidaho.edu/sci/ess" target="_blank">Department of Earth and Spatial Sciences</a> at the <a href = "https://www.uidaho.edu/" target="_blank">University of Idaho</a>, where I worked with <a href = "https://webpages.uidaho.edu/~jhicke/" target="_blank">Dr. Jeffrey Hicke</a> in the Ecological Geography lab.
 
-> For more information on my academics and experience, please navigate to the [CV](/cv/) page.
+> **For more information on my academics and experience, please navigate to the [CV](/cv/) page.**
 
 # Research
 
