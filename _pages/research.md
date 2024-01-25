@@ -37,7 +37,7 @@ True-color render and random forest classification of point cloud
   <iframe src="/files/widgetRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
 </div>
 
-> **Right panel:** True color representation of the point cloud. **Left panel:** RF classification; green is healthy, red is red, gray is gray, and black is shadow. 
+> **Left panel:** True color representation of the point cloud. **Right panel:** RF classification; green is healthy, red is red, gray is gray, and black is shadow. 
 
 Random forest classification probability and top-kill algorithm  
 <div style="display: flex;">
@@ -46,7 +46,7 @@ Random forest classification probability and top-kill algorithm
 </div>
 
 
-> **Right panel:** The probabilities of classes shown in left panel on the above interactive layout; darker colors represent higher probabilities of classification. **Left panel:** Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
+> **Left panel:** The probabilities of classes shown in left panel on the above interactive layout; darker colors represent higher probabilities of classification. **Right panel:** Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
 
 > I presented a condensed version of my MS research for University of Idaho's [GIS day 2023](https://www.lib.uidaho.edu/gisday/) as a contributed talk. 
 >> To view the recording of the presentation, please follow this link: <a href="https://youtu.be/71AH3u_J9tQ?si=muOGWjGO0DK028cb" target="_blank">https://youtu.be/71AH3u_J9tQ?si=muOGWjGO0DK028cb</a>.  
