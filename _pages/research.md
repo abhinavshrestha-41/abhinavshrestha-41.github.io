@@ -6,13 +6,13 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-## Current Research  
+## Graduate Research  
 
 ### M.S. Project @University of Idaho: 
 
-MS Thesis title: *Combining multispectral and three-dimensional data from drone imagery to detect forest insect damage: an evaluation of a novel approach in the northern Rocky Mountains*
+> **Title**: [*Combining Multispectral and Three-Dimensional Data From Drone Imagery to Detect Forest Insect Damage: An Evaluation of a Novel Approach to Identify the Vertical Structure of Damage in Trees in the Northern Rocky Mountains, USA*](https://www.proquest.com/dissertations-theses/combining-multispectral-three-dimensional-data/docview/2903210004/se-2?accountid=9758)
 
-Project description: My current M.S. research project focused on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. Specifically, in the utlity of point cloud data derived from Structure for Motion (SfM) for the classification and characterization of vertical tree damage of a UAS mission area. I used tools such as ArcGIS Pro, Agisoft Metashape, CloudCompare, and R and Python programming to create new algorithms and establish a novel methodology.   
+Project description: My M.S. research project focused on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. The project explored the utlity of point cloud data derived from Structure for Motion (SfM) for the classification and characterization of vertical tree damage of a UAS mission area. I used tools such as ArcGIS Pro, Agisoft Metashape, CloudCompare, and R and Python programming to create new algorithms and establish a novel methodology.   
 
 Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see ['Collaborative Research'](#collaborative-research) section below*).  
 
@@ -117,15 +117,22 @@ Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-
 
 ## GitHub Repositories 
 
-<h3 id="DroneShrub"><a href = "https://github.com/gharrison159/UAVShrubVolume" target="_blank">Drone shrub volume project</a></h3>
+<h3 id="DroneShrub">Drone shrub volume project</h3>
 
 * Pricipal investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a>. 
+* GitHub: [![Static Badge](https://img.shields.io/badge/GitHub-https%3A%2F%2Fgithub.com%2Fgharrison159%2FUAVShrubVolume-blue?logo=github)](https://github.com/gharrison159/UAVShrubVolume)
+
 * Zenodo: [![DOI](https://zenodo.org/badge/553770123.svg)](https://zenodo.org/doi/10.5281/zenodo.10309158) 
 
 <h3 id="DroneTopkill"> Point cloud classification and top-kill assessment </h3>
 
 * Principle investigator: Abhinav Shrestha  
-⏳ *GitHub repo UNDER CONSTRUCTION* ⏳
+* GitHub: [![Static Badge](https://img.shields.io/badge/GitHub-https%3A%2F%2Fgithub.com%2Fabhinavshrestha-41%2FDrone_PointCloudClassification_Topkill?logo=github&color=blue)](https://github.com/abhinavshrestha-41/Drone_PointCloudClassification_Topkill)
+
+
+
+
+
 
 ### University of Idaho R-Programming course (ENVS 511)
 
