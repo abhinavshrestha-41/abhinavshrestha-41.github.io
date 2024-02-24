@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-## Graduate Research  
+# Graduate Research  
 
 ### M.S. Project @University of Idaho: 
 
@@ -136,18 +136,19 @@ Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-
 
 ### University of Idaho R-Programming course (ENVS 511)
 
-* [Course GitHub repository (`MAIN`)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
-* [Final project -- Rpubs website](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/FinalProject)
->[https://rpubs.com/abhinav-shrestha/979241](https://rpubs.com/abhinav-shrestha/979241)
+* Course GitHub repository (`MAIN`): [![Static Badge](https://img.shields.io/badge/GitHub-MAIN-blue?logo=github)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
 
-* [R-Shiny web app -- online dashboard](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/RShiny_App)
+* Final project repository: [![Static Badge](https://img.shields.io/badge/GitHub-FinalProject-blue?logo=github)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/FinalProject)
+  * Website URL: [https://rpubs.com/abhinav-shrestha/979241](https://rpubs.com/abhinav-shrestha/979241)
+
+* R-Shiny web app repository (online dashboard; click image below to visit): [![Static Badge](https://img.shields.io/badge/GitHub-RShinyApp-blue?logo=github)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/RShiny_App)
 > [![image](https://user-images.githubusercontent.com/116584687/224510962-ee9040d6-591f-4c4e-b802-119e868d5ff2.png)](https://abhinavshrestha.shinyapps.io/Assignment15_ShinyApp/)
 
 
 
 <hr>
 
-## Previous Research 
+# Previous Research 
 
 ### GIS-based study of topographical preference of common tree species in Palisades-Kepler State Park, IA 
 (*Senior Honors Thesis, Coe College, Cedar Rapids, IA, 2019*)
