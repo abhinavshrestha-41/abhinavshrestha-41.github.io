@@ -95,7 +95,7 @@ Here is a an interactive preview of the shurb delineation and segmentation on a 
 
 ## Publications & Presentations
 
-**Shrestha, A.**, J. A. Hicke, A. J. H. Meddens, J. W. Karl, A. T. Stahl, Evaluating a novel approach to detect the vertical structure of insect damage in trees using a combination of multispectral and three-dimensional data from drone imagery in the northern Rocky Mountains, USA, *Remote Sensing of the Environment* (*publication in prep*), 2024.
+**Shrestha, A.**; Hicke, J.A.; Meddens, A.J.H.; Karl, J.W.; Stahl, A.T. Evaluating a Novel Approach to Detect the Vertical Structure of Insect Damage in Trees Using Multispectral and Three-Dimensional Data from Drone Imagery in the Northern Rocky Mountains, USA. *Remote Sensing*, 2024, 16, 1365. https://doi.org/10.3390/rs16081365
 
 Hicke, J. A., B. C. Bright, R. P. Hanavan, A. T. Hudak, A. J. H. Meddens, **A. Shrestha**, A. T. Stahl, A review of remote sensing of forest insect and disease outbreaks: Bottom-up and top-down considerations for detection and attribution, (*under review*), 2024
 
