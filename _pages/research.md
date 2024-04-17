@@ -25,7 +25,10 @@ A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/h
 > *I am currently developing the journal article for my project. In the meantime, checkout the graphical abstract for the journal article in preparation for this project and example data product from the methodlogy applied on the point cloud of a single tree*
 
 ### Graphical abstract
-<img src="/files/GraphicalAbstract.png" alt="Graphical abstract for journal article" style="max-width: 100%; height: auto;">
+<img src="/files/GraphicalAbstract.jpg" alt="Graphical abstract for journal article" style="max-width: 100%; height: auto;">  
+
+Journal article: [![Static Badge](https://img.shields.io/badge/%20DOI%3A-10.3390%2Frs160813650-blue?style=plastic
+    )](https://doi.org/10.3390/rs16081365)
 
 ### Interactive preview of methodology applied on the point cloud of a single tree
 
