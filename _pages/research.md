@@ -100,7 +100,7 @@ Here is an interactive preview of the shurb delineation and segmentation on a su
 
 **Shrestha, A.**; Hicke, J.A.; Meddens, A.J.H.; Karl, J.W.; Stahl, A.T. Evaluating a Novel Approach to Detect the Vertical Structure of Insect Damage in Trees Using Multispectral and Three-Dimensional Data from Drone Imagery in the Northern Rocky Mountains, USA. *Remote Sensing*, 2024, 16, 1365. <a href="https://doi.org/10.3390/rs16081365" target="_blank">https://doi.org/10.3390/rs16081365</a>
 
-Harrison, G. R., **A. Shrestha**, E. K. Strand, J. W. Karl, A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds, *Ecosphere* (*in press*) 2023.
+Harrison, G. R., **A. Shrestha**, E. K. Strand, J. W. Karl, A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds, *Ecosphere* 2024. <a href="https://doi.org/10.1002/ecs2.4877" target="_blank">https://doi.org/10.1002/ecs2.4877</a>
 
 Hicke, J. A., B. C. Bright, R. P. Hanavan, A. T. Hudak, A. J. H. Meddens, **A. Shrestha**, A. T. Stahl, A review of remote sensing of forest insect and disease outbreaks: Bottom-up and top-down considerations for detection and attribution, (*under review*), 2024
 
