@@ -82,6 +82,7 @@ Principle investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc
 Faculty advisor: <a href = "https://www.uidaho.edu/cnr/faculty/karl" target="_blank">Dr. Jason Karl</a>
 <br>
 Project title: *A comparison and development of methods for estimating sagebrush shrub volume.*  
+Journal article: [![Static Badge](https://img.shields.io/badge/DOI%3A%20-https%3A%2F%2Fdoi.org%2F10.1002%2Fecs2.4877-blue?style=flat)](https://doi.org/10.1002/ecs2.4877)  
 Project description: This project is funded by the Joint Fire Science Program's <a href = "https://www.firescience.gov/JFSP_funding_announcements.cfm" target="_blank">Graduate Research and Innovation (GRIN) Fellowship</a> secured by PI Georgia Harrison, Department of Plant Sciences, University of Idaho and is a part of her PhD dissertation.  
 
 Responsibilities:  
