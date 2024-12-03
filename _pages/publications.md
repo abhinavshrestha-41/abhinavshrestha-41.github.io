@@ -21,7 +21,7 @@ Harrison, G. R., **A. Shrestha**, E. K. Strand, J. W. Karl, A comparison and dev
 Hicke, J. A., B. C. Bright, R. P. Hanavan, A. T. Hudak, A. J. H. Meddens, **A. Shrestha**, A. T. Stahl, A review of remote sensing of forest insect and disease outbreaks: Bottom-up and top-down considerations for detection and attribution, (*under review*), 2024
 
 
-***Theses & Dissertations*** 
+## Theses & Dissertations
  
 **Shrestha, A.**, <a href="https://www.proquest.com/docview/2903210004?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses" target="_blank">Combining Multispectral and Three-Dimensional Data From Drone Imagery to Detect Forest Insect Damage: An Evaluation of a Novel Approach to Identify the Vertical Structure of Damage in Trees in the Northern Rocky Mountains, USA.</a> *MS thesis*. University of Idaho, Moscow, ID, December 2023.
 

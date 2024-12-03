@@ -7,15 +7,14 @@ main:
   - title: "M.S. Research"
     url: /m_s_thesis/
 
-  - title: "CV"
-    url: /cv/ 
+  - title: "Research Portfolio"
+    url: /portfolio/
   
   - title: "Publications"
     url: /publications/
   
-  - title: "Research Portfolio"
-    url: /portfolio/
-    
+  - title: "CV"
+    url: /cv/    
 
 #  - title: "Talks"
 #    url: /talks/    
