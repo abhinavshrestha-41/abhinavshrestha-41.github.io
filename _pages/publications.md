@@ -41,7 +41,29 @@ Obiesie, C., **Shrestha, A.**, & Sanchini, P. "Distribution of Oaks (Quercus spp
 
 Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions", poster presentation, Tri-State Undergraduate Psychology Research Conference, Loras College, Dubuque, IA, 2018.
 
+## GitHub Repositories 
 
+<h3 id="DroneTopkill"> Point cloud classification and top-kill assessment </h3>
+
+* Principle investigator: Abhinav Shrestha  
+* GitHub: [![Static Badge](https://img.shields.io/badge/GitHub-https%3A%2F%2Fgithub.com%2Fabhinavshrestha-41%2FDrone_PointCloudClassification_Topkill?logo=github&color=blue)](https://github.com/abhinavshrestha-41/Drone_PointCloudClassification_Topkill)
+
+<h3 id="DroneShrub">Drone shrub volume project</h3>
+
+* Pricipal investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a>. 
+* GitHub: [![Static Badge](https://img.shields.io/badge/GitHub-https%3A%2F%2Fgithub.com%2Fgharrison159%2FUAVShrubVolume-blue?logo=github)](https://github.com/gharrison159/UAVShrubVolume)
+
+* Zenodo: [![DOI](https://zenodo.org/badge/553770123.svg)](https://zenodo.org/doi/10.5281/zenodo.10309158) 
+
+### University of Idaho R-Programming course (ENVS 511)
+
+* Course GitHub repository (`MAIN`): [![Static Badge](https://img.shields.io/badge/GitHub-MAIN-blue?logo=github)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)
+
+* Final project repository: [![Static Badge](https://img.shields.io/badge/GitHub-FinalProject-blue?logo=github)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/FinalProject)
+  * Website URL: [https://rpubs.com/abhinav-shrestha/979241](https://rpubs.com/abhinav-shrestha/979241)
+
+* R-Shiny web app repository (online dashboard; click image below to visit): [![Static Badge](https://img.shields.io/badge/GitHub-RShinyApp-blue?logo=github)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho/tree/main/RShiny_App)
+> [![image](https://user-images.githubusercontent.com/116584687/224510962-ee9040d6-591f-4c4e-b802-119e868d5ff2.png)](https://abhinavshrestha.shinyapps.io/Assignment15_ShinyApp/)
 
 <!-- {% for post in site.publications reversed %}
   {% include archive-single.html %}
