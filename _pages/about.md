@@ -23,7 +23,7 @@ My M.S. research project focused on evaluating methods of detecting forest insec
 
 I also worked on various collaborative research projects with different departments within the University of Idaho and with different institutions such as NASA, Washington State University, and USDA Forest Service. 
 
-> 📖 *Please refer to the ['Publications'](/research/#publications) section for details on the research projects* 📖
+> 📖 *Please refer to the ['Publications'](/publications/) page for details on the research projects* 📖
 
 ### Undergraduate Research 
 I earned my B.A. in Biology and Environmental Science from Coe College, Cedar Rapids, IA in 2019. I worked with my honor's thesis advisor, <a href = "https://www.coe.edu/academics/majors-areas-study/biology/faculty"  target="_blank">Dr. Paula Sanchini</a> from the Department of Biology, in a multi-year (2016-2019) GIS-based study on geographical preferences of tree species in a local state park. 
