@@ -9,9 +9,11 @@ redirect_from:
 ---
 Welcome to my GitHub Academic Page! My name is Abhinav Shrestha, I go by 'Abhi' for short (pronouced /ɑː-biː/; अभिनव in Nepali). I an M.S. graduate from the <a href = "https://www.uidaho.edu/" target="_blank">University of Idaho</a> (Class of 2024), where I worked with <a href = "https://webpages.uidaho.edu/~jhicke/" target="_blank">Dr. Jeffrey Hicke</a> in the Ecological Geography lab,  <a href = "https://www.uidaho.edu/sci/ess" target="_blank">Department of Earth and Spatial Sciences</a>.  
 
-> Current professional role</b>: I am a geospatial and remote sensing specialist with RedCastle Resources, Inc. working as a federal contractor for the USDA Forest Service's Geospatial Technology and Applications Center (GTAC). 
+> **Current professional role**: I am a geospatial and remote sensing specialist with RedCastle Resources, Inc. working as a federal contractor for the USDA Forest Service's Geospatial Technology and Applications Center (GTAC). 
   
 *For more information on my academics and experience, please navigate to the [CV](/cv/) page.*
+
+<hr>
 
 # Research
 
@@ -32,7 +34,7 @@ I earned my B.A. in Biology and Environmental Science from Coe College, Cedar Ra
 
 📖 *Check out the ['Publications'](/publications/) page for details on the research projects* 
 
-<br>
+<hr>
 
 # Outside Academia (get to know me!)
 Besides countless hours spent working with GIS/remote sensing, imagery, point clouds, code, and photogrammetry. I love playing and watching soccer, spending my free time going on a run/staying active, combing through thrift stores to find hidden gems, and trying out local cuisines!  

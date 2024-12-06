@@ -20,6 +20,7 @@ Harrison, G. R., **A. Shrestha**, E. K. Strand, J. W. Karl, A comparison and dev
 
 Hicke, J. A., B. C. Bright, R. P. Hanavan, A. T. Hudak, A. J. H. Meddens, **A. Shrestha**, A. T. Stahl, A review of remote sensing of forest insect and disease outbreaks: Bottom-up and top-down considerations for detection and attribution, (*under review*), 2024
 
+Meddens, A., Bright, B., Neigh, C., Wooten, M., Caraballo-Vega, J., Egan, J., Hanavan, R., **Shrestha, A.**, Hudak, A., & Hicke, J. Developing a Rapid Classification Approach for Using Very High-Resolution Satellite Imagery to Map Insect-Caused Forest Disturbances. Available at SSRN 4943044 (pre-print).<a href="https://dx.doi.org/10.2139/ssrn.4943044" target="_blank"> https://dx.doi.org/10.2139/ssrn.4943044</a>
 
 ## Theses & Dissertations
  
