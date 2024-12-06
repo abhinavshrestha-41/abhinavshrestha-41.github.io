@@ -15,17 +15,24 @@ Welcome to my GitHub Academic Page! My name is Abhinav Shrestha, I go by 'Abhi' 
   
 > **For more information on my academics and experience, please navigate to the [CV](/cv/) page.**
 
-# [M.S. Thesis](/m_s_thesis/)
+# Research
+
+## M.S. Research
 
 My M.S. research project focused on evaluating methods of detecting forest insect damage and mortality using Uncrewed Aerial Systems (UAS)-derived data products in conifer forests of the western United States. I was particularly interested in the utlity of UAS Structure-from-Motion (SfM) derived photogrammetric point cloud data for the 3D classification and characterization of tree damage of a given study area (UAS mission area).  
 
-# [Research Portfolio](/portfolio/)
+> Please refer to the [M.S. Research](/m_s_thesis/) page for details on the MS research project
+
+## Graduate Research (collaborations)
+
 I also worked on various collaborative research projects with different departments within the University of Idaho and with different institutions such as NASA, Washington State University, and USDA Forest Service. 
 
-### Undergraduate Research 
+## Undergraduate Research 
 I earned my B.A. in Biology and Environmental Science from Coe College, Cedar Rapids, IA in 2019. I worked with my honor's thesis advisor, <a href = "https://www.coe.edu/academics/majors-areas-study/biology/faculty"  target="_blank">Dr. Paula Sanchini</a> from the Department of Biology, in a multi-year (2016-2019) GIS-based study on geographical preferences of tree species in a local state park. 
 
-> 📖 *Please refer to the ['Publications'](/publications/) page for details on the research projects* 📖
+> Please refer to the [Research Portfolio](/portfolio/) page for details on collaborative graduate and undergraduate research
+
+### 📖 *Please refer to the ['Publications'](/publications/) page for details on the research projects* 📖
 
 # Outside Academia (get to know me!)
 Besides countless hours spent working with GIS/remote sensing, imagery, point clouds, code, and photogrammetry. I love playing and watching soccer, spending my free time going on a run/staying active, combing through thrift stores to find hidden gems, and trying out local cuisines!  
