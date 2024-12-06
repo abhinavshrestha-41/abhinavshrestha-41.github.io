@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications and Repositories"
 permalink: /publications/
 author_profile: true
 ---
@@ -14,6 +14,8 @@ author_profile: true
 
 <!-- ## Publications -->
 
+### Journal articles
+
 **Shrestha, A.**; Hicke, J.A.; Meddens, A.J.H.; Karl, J.W.; Stahl, A.T. Evaluating a Novel Approach to Detect the Vertical Structure of Insect Damage in Trees Using Multispectral and Three-Dimensional Data from Drone Imagery in the Northern Rocky Mountains, USA. *Remote Sensing*, 2024, 16, 1365. <a href="https://doi.org/10.3390/rs16081365" target="_blank">https://doi.org/10.3390/rs16081365</a>
 
 Harrison, G. R., **A. Shrestha**, E. K. Strand, J. W. Karl, A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds, *Ecosphere* 2024. <a href="https://doi.org/10.1002/ecs2.4877" target="_blank">https://doi.org/10.1002/ecs2.4877</a>
@@ -22,13 +24,13 @@ Hicke, J. A., B. C. Bright, R. P. Hanavan, A. T. Hudak, A. J. H. Meddens, **A. S
 
 Meddens, A., Bright, B., Neigh, C., Wooten, M., Caraballo-Vega, J., Egan, J., Hanavan, R., **Shrestha, A.**, Hudak, A., & Hicke, J. Developing a Rapid Classification Approach for Using Very High-Resolution Satellite Imagery to Map Insect-Caused Forest Disturbances. Available at SSRN 4943044 (pre-print).<a href="https://dx.doi.org/10.2139/ssrn.4943044" target="_blank"> https://dx.doi.org/10.2139/ssrn.4943044</a>
 
-## Theses & Dissertations
+### Theses & Dissertations
  
 **Shrestha, A.**, <a href="https://www.proquest.com/docview/2903210004?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses" target="_blank">Combining Multispectral and Three-Dimensional Data From Drone Imagery to Detect Forest Insect Damage: An Evaluation of a Novel Approach to Identify the Vertical Structure of Damage in Trees in the Northern Rocky Mountains, USA.</a> *MS thesis*. University of Idaho, Moscow, ID, December 2023.
 
 **Shrestha, A.**, <a href="https://coecollege.on.worldcat.org/oclc/1137317800" target="_blank">GIS-Based Study on Topographical Preference of Common Tree Species in Palisades-Kepler State Park, IA,</a> *honors thesis*, Coe College Department of Biology, Cedar Rapids, IA, May 2019.
 
-## Presentations
+### Presentations
 
 **Shrestha, A.**, J. A. Hicke, A. J. H. Meddens, J. W. Karl, A. T. Stahl, [Evaluating the combination of reflectances and three-dimensional point cloud from drone imagery for detecting forest insect damage](https://perma.cc/8M9M-SXZE), contributed talk, University of Idaho GIS Day, November 2023.
 
@@ -42,7 +44,7 @@ Obiesie, C., **Shrestha, A.**, & Sanchini, P. "Distribution of Oaks (Quercus spp
 
 Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions", poster presentation, Tri-State Undergraduate Psychology Research Conference, Loras College, Dubuque, IA, 2018.
 
-## GitHub Repositories 
+## <img src="../images/github.png" alt="GitHub-Icon" width="30" height="30" style="vertical-align: middle;"> GitHub Repositories 
 
 <h3 id="DroneTopkill"> Point cloud classification and top-kill assessment </h3>
 

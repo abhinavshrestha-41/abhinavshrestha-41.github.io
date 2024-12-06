@@ -32,7 +32,7 @@ I earned my B.A. in Biology and Environmental Science from Coe College, Cedar Ra
 
 > Please refer to the [Research Portfolio](/portfolio/) page for details on collaborative graduate and undergraduate research
 
-📖 *Check out the ['Publications'](/publications/) page for details on the research projects* 
+<img src="../images/github.png" alt="GitHub-Icon" width="20" height="20" style="vertical-align: middle;">📖 *Check out the ['Publications and Repositories'](/publications/) page for links to published journal articles, theses, presentations, and GitHub repositories* 📖 <img src="../images/github.png" alt="GitHub-Icon" width="20" height="20" style="vertical-align: middle;">
 
 <hr>
 
