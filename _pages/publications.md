@@ -53,7 +53,7 @@ Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-
 
 <h3 id="DroneShrub">Drone shrub volume project</h3>
 
-* Pricipal investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Georgia Harrison</a>. 
+* Pricipal investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Dr. Georgia Harrison</a>. 
 * GitHub: [![Static Badge](https://img.shields.io/badge/GitHub-https%3A%2F%2Fgithub.com%2Fgharrison159%2FUAVShrubVolume-blue?logo=github)](https://github.com/gharrison159/UAVShrubVolume)
 
 * Zenodo: [![DOI](https://zenodo.org/badge/553770123.svg)](https://zenodo.org/doi/10.5281/zenodo.10309158) 
