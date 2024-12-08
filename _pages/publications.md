@@ -58,6 +58,11 @@ Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-
 
 * Zenodo: [![DOI](https://zenodo.org/badge/553770123.svg)](https://zenodo.org/doi/10.5281/zenodo.10309158) 
 
+### NASA CSDA SmallSat Project
+* Principle investigator: <a href="https://labs.wsu.edu/meddenslab/people/" target="_blank">Dr. Arjan Meddens</a>
+* GitHub: [![Static Badge](https://img.shields.io/badge/GitHub%3A-https%3A%2F%2Fgithub.com%2Farjanmeddens%2FSmallSat-blue?logo=github)](https://github.com/arjanmeddens/SmallSat)
+
+
 ### University of Idaho R-Programming course (ENVS 511)
 
 * Course GitHub repository (`MAIN`): [![Static Badge](https://img.shields.io/badge/GitHub-MAIN-blue?logo=github)](https://github.com/abhinavshrestha-41/ENVS511_R_Programming_Course_UIdaho)

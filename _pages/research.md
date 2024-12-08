@@ -10,11 +10,11 @@ redirect_from:
 
 Project description: My M.S. research project focused on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. The project explored the utlity of point cloud data derived from Structure for Motion (SfM) for the classification and characterization of vertical tree damage of a UAS mission area. I used tools such as ArcGIS Pro, Agisoft Metashape, CloudCompare, and R and Python programming to create new algorithms and establish a novel methodology.   
 
-Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see ['Collaborative Research'](#collaborative-research) section below*).  
-
-<div style="border: 1px solid #ffa500; background-color: #fff8e1; padding: 10px; border-radius: 5px; color: #333;">
+<div style="border: 1px solid #81c784; background-color: #edf7ed; padding: 15px; border-radius: 5px; color: #333; font-size: 1em;">
 <b>The research for this project was conducted in the ancestral homelands of the Ksanka (Kootenai), Ql̓ispé (Pend d’Oreille), and Sélish (Salish) tribes of western Montana.</b>
 </div>
+
+Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see details in the ['Research Portfolio'](/portfolio/) page*).  
 
 A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide" target="_blank">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. UAS image acquisition mission was planned and operated by <a href="https://atstahl.github.io/">Dr. Amanda Stahl</a>. Here preview of the UAS-photogrammetry derived point cloud data I am working with (*data is displayed on CloudCompare*):
 
@@ -23,7 +23,7 @@ A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/h
 ## Journal article
 
 ### *Evaluating a Novel Approach to Detect the Vertical Structure of Insect Damage in Trees Using Multispectral and Three-Dimensional Data from Drone Imagery in the Northern Rocky Mountains, USA.* 
-[![Static Badge](https://img.shields.io/badge/%20DOI%3A-10.3390%2Frs160813650-blue?style=plastic
+[![Static Badge](https://img.shields.io/badge/%20DOI%3A-10.3390%2Frs160813650-blue?logo=doi
     )](https://doi.org/10.3390/rs16081365)
 
 
@@ -59,5 +59,9 @@ Random forest classification probability and top-kill algorithm
 
 
 > To view the pdf of the presentation file, please follow this link: <a href="https://objects.lib.uidaho.edu/gisday/shrestha_gisday2023.pdf" target = "_blank">https://objects.lib.uidaho.edu/gisday/shrestha_gisday2023.pdf</a>
+
+<div style="border: 1px solid #444c56; background-color: #0d1117; padding: 10px; border-radius: 5px; color: #c9d1d9;">
+<img src="../images/github.png" alt="GitHub-Icon" width="20" height="20" style="vertical-align: middle;"> Code outlining the methodology for the project are available as a GitHub repostirory. Link to the code repository can be found in the <a href="/_pages/publications.md#github-repositories">Publications and Repositories page</a><img src="../images/github.png" alt="GitHub-Icon" width="20" height="20" style="vertical-align: middle;">
+</div>
 
 <hr>
