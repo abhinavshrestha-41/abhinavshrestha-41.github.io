@@ -44,7 +44,7 @@ Obiesie, C., **Shrestha, A.**, & Sanchini, P. "Distribution of Oaks (Quercus spp
 
 Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions", poster presentation, Tri-State Undergraduate Psychology Research Conference, Loras College, Dubuque, IA, 2018.
 
-## <img src="../images/github.png" alt="GitHub-Icon" width="30" height="30" style="vertical-align: middle;"> GitHub Repositories 
+<h2 id="GitHubRepositories"><img src="../images/github.png" alt="GitHub-Icon" width="30" height="30" style="vertical-align: middle;"> GitHub Repositories</h2> 
 
 <h3 id="DroneTopkill"> Point cloud classification and top-kill assessment </h3>
 
