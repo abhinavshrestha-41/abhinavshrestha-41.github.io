@@ -61,7 +61,7 @@ Random forest classification probability and top-kill algorithm
 > To view the pdf of the presentation file, please follow this link: <a href="https://objects.lib.uidaho.edu/gisday/shrestha_gisday2023.pdf" target = "_blank">https://objects.lib.uidaho.edu/gisday/shrestha_gisday2023.pdf</a>
 
 <div style="border: 1px solid #444c56; background-color: #0d1117; padding: 10px; border-radius: 5px; color: #c9d1d9;">
-<img src="../images/github.png" alt="GitHub-Icon" width="20" height="20" style="vertical-align: middle;"> Code outlining the methodology for the project are available as a GitHub repostirory. Link to the code repository can be found in the <a href="/_pages/publications.md#github-repositories">Publications and Repositories page</a><img src="../images/github.png" alt="GitHub-Icon" width="20" height="20" style="vertical-align: middle;">
+<img src="../images/github.png" alt="GitHub-Icon" width="20" height="20" style="vertical-align: middle;"> Code outlining the methodology for the project are available as a GitHub repository. Link to the code repository can be found in the <a href="publications.md#github-repositories">Publications and Repositories</a> page <img src="../images/github.png" alt="GitHub-Icon" width="20" height="20" style="vertical-align: middle;">
 </div>
 
 <hr>
