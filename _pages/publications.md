@@ -20,7 +20,7 @@ author_profile: true
 
 Harrison, G. R., **A. Shrestha**, E. K. Strand, J. W. Karl, A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds, *Ecosphere* 2024. <a href="https://doi.org/10.1002/ecs2.4877" target="_blank">https://doi.org/10.1002/ecs2.4877</a>
 
-Hicke, J. A., Bright, B. C., Hanavan, R. P., Hudak, A. T., Meddens, A. J., **Shrestha, A.**, & Stahl, A. T. (2024). Remote sensing of forest insect and disease outbreaks in the western United States: Tree, stand, and landscape responses and technologies and methods for detection and attribution. RMRS-GTR-443. Fort Collins, CO: US Department of Agriculture, Forest Service, Rocky Mountain Research Station. 92 p., 443. https://doi.org/10.2737/RMRS-GTR-443 
+Hicke, J. A., Bright, B. C., Hanavan, R. P., Hudak, A. T., Meddens, A. J., **Shrestha, A.**, & Stahl, A. T. (2024). Remote sensing of forest insect and disease outbreaks in the western United States: Tree, stand, and landscape responses and technologies and methods for detection and attribution. RMRS-GTR-443. Fort Collins, CO: US Department of Agriculture, Forest Service, Rocky Mountain Research Station. 92 p., 443. <a href="https://doi.org/10.2737/RMRS-GTR-443" target="_blank">https://doi.org/10.2737/RMRS-GTR-443</a>
 
 Meddens, A., Bright, B., Neigh, C., Wooten, M., Caraballo-Vega, J., Egan, J., Hanavan, R., **Shrestha, A.**, Hudak, A., & Hicke, J. Developing a Rapid Classification Approach for Using Very High-Resolution Satellite Imagery to Map Insect-Caused Forest Disturbances. Available at SSRN 4943044 (pre-print).<a href="https://dx.doi.org/10.2139/ssrn.4943044" target="_blank"> https://dx.doi.org/10.2139/ssrn.4943044</a>
 
