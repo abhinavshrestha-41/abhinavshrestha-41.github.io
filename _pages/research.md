@@ -54,9 +54,9 @@ Random forest classification probability and top-kill algorithm
 
 ### Potree Viewer
 
-<div style="position: absolute; left: 20%; right: 20%; top: 20%; bottom: 20%">
-		<iframe src="../files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" style="width: 100%; height: 100%"></iframe>
-	</div>
+<div style="display: flex;">
+		<iframe src="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
+</div>
 
 ## Presentations
 
