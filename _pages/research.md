@@ -52,11 +52,13 @@ Random forest classification probability and top-kill algorithm
 > **Left panel:** The probabilities of classes shown in left panel on the above interactive layout; darker colors represent higher probabilities of classification. **Right panel:** Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
 
 
-### Potree Viewer
+<h3 id="PotreeViewer">Potree Viewer</h3>
 
 <div style="display: flex;">
 		<iframe src="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
-</div>
+</div>  
+
+To open the Potree viewer in a new tab (full-screen), click <a href="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" target="_blank">here</a>.
 
 ## Presentations
 
