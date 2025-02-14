@@ -34,31 +34,28 @@ A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/h
 
 > *Use the left mouse button to tilt the 3D model and the mouse scroll wheel to zoom in and out.* 
 
-True-color render and random forest classification of point cloud
+True-color render, random forest classification of point cloud and top-kill algorithm
 <div style="display: flex;">
   <iframe src="/files/widgetRGB.html" width="50%" height="600" style="flex: 1;"></iframe>
-  <iframe src="/files/widgetRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
-</div>
-
-> **Left panel:** True color representation of the point cloud. **Right panel:** RF classification; green is healthy, red is red, gray is gray, and black is shadow. 
-
-Random forest classification probability and top-kill algorithm  
-<div style="display: flex;">
-  <iframe src="/files/widgetRFProb.html" width="50%" height="600" style="flex: 1;"></iframe>
   <iframe src="/files/widgetRFClass_TK.html" width="50%" height="600" style="flex: 1;"></iframe>
 </div>
 
-
-> **Left panel:** The probabilities of classes shown in left panel on the above interactive layout; darker colors represent higher probabilities of classification. **Right panel:** Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
-
+> **Left panel:** True color representation of the point cloud. **Right panel:** RF classification; green is healthy, red is red, gray is gray, and black is shadow.Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
 
 <h3 id="PotreeViewer">Potree Viewer</h3>
+
+* The current scene is only rendering the RGB point cloud.  
+* Navigate to Scene > Objects > Point Clouds to toggle the visibility of the random forest (RF) classified point cloud and point cloud with classification probability.
+* RF classes: green is healthy, red is red, gray is gray, and black is shadow
+* RF probability: warmer color (orange-red) higher classification probability, cooler color (yellow-blue) lower classification probability.
+
+>To open the Potree viewer in a new tab (full-screen), click <a href="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" target="_blank">here</a>.
 
 <div style="display: flex;">
 		<iframe src="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
 </div>  
 
-To open the Potree viewer in a new tab (full-screen), click <a href="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" target="_blank">here</a>.
+
 
 ## Presentations
 

@@ -57,6 +57,32 @@
 			$("#menu_scene").next().show();
 			// $("#menu_tools").next().show();
 			viewer.toggleSidebar();
+			
+			let section = $(`
+				<h3 id="menu_meta" class="accordion-header ui-widget"><span>Metadata and Citation</span></h3>
+				<div class="accordion-content ui-widget pv-menu-list"></div>
+			`);
+			let content = section.last();
+			content.html(`
+			<div class="pv-menu-list">
+				Credits:
+				Potree and PotreeConverter code repositories were used to convert the .las files into a web-server hosted potree scene. For more information, navigate to the "About" section below.
+				<br>
+				<br>				
+				Journal article: 
+				<p>
+				<a href="https://doi.org/10.3390/rs16081365" target="_blank"><img alt="DOI link" src="https://img.shields.io/badge/%20DOI%3A-10.3390%2Frs160813650-blue?logo=doi"></a>
+				<br></p>
+				<br>
+				Citation:
+				<br><p>
+				Shrestha, A.; Hicke, J.A.; Meddens, A.J.H.; Karl, J.W.; Stahl, A.T. Evaluating a Novel Approach to Detect the Vertical Structure of Insect Damage in Trees Using Multispectral and Three-Dimensional Data from Drone Imagery in the Northern Rocky Mountains, USA. Remote Sens. 2024, 16, 1365. https://doi.org/10.3390/rs16081365</p>
+			</div>
+			`);
+			section.first().click(() => content.slideToggle());
+			section.insertBefore($('#menu_about'));
+
+
 		});
 
 		// wrap load code into an async function so that we can use "await"
@@ -83,6 +109,7 @@
 					material.pointSizeType = Potree.PointSizeType.FIXED;
 					material.shape = Potree.PointShape.CIRCLE;
 					material.activeAttributeName = "classification";
+					pointcloud.visible = false;
 								
 				},
 			},{
@@ -94,7 +121,8 @@
 					material.pointSizeType = Potree.PointSizeType.FIXED;
 					material.shape = Potree.PointShape.CIRCLE;
 					material.activeAttributeName = "RBI_NDVI_REDEDGE_max_prob";
-					material.gradient = Potree.Gradients.TURBO
+					material.gradient = Potree.Gradients.TURBO;
+					pointcloud.visible = false;
 			
 				},
 			}
