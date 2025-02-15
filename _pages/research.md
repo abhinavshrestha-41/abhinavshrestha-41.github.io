@@ -33,6 +33,7 @@ Drone data used for this MS thesis was collected for a broader project assessing
 * RF classes: green is healthy, red is red, gray is gray, and black is shadow.
 * RF probability: warmer color (orange-red) higher classification probability, cooler color (yellow-blue) lower classification probability.
 * Navigate to *Scene* > *Objects* > *Other* to toggle the visibility of the tree crown outlines from the point cloud segmentation of individual trees. The color of the tree crown outlines follow the following color scheme: Healthy (forest green), Minor damage (faded orange), Moderate damage (vibrant orange), Major damage (vibrant red), NA (black).
+* Double-click on the annotations (e.g., "Top-killed tree") to zoom to the tree.
 
 >To open the Potree viewer in a new tab (full-screen), click <a href="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" target="_blank">here</a>.
 
