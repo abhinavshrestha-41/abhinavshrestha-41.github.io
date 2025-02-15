@@ -26,6 +26,20 @@ Drone data used for this MS thesis was collected for a broader project assessing
  Graphical abstract
 <img src="/files/GraphicalAbstract.jpg" alt="Graphical abstract for journal article" style="max-width: 100%; height: auto;">  
 
+<h2 id="PotreeViewer">Potree Point Cloud Viewer</h2>
+
+* The current scene is only rendering the RGB point cloud.  
+* Navigate to *Scene* > *Objects* > *Point Clouds* to toggle the visibility of the random forest (RF) classified point cloud and point cloud with classification probability.
+* RF classes: green is healthy, red is red, gray is gray, and black is shadow.
+* RF probability: warmer color (orange-red) higher classification probability, cooler color (yellow-blue) lower classification probability.
+* Navigate to *Scene* > *Objects* > *Other* to toggle the visibility of the tree crown outlines from the point cloud segmentation of individual trees. The color of the tree crown outlines follow the following color scheme: Healthy (forest green), Minor damage (faded orange), Moderate damage (vibrant orange), Major damage (vibrant red), NA (black).
+
+>To open the Potree viewer in a new tab (full-screen), click <a href="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" target="_blank">here</a>.
+
+<div style="display: flex;">
+		<iframe src="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
+</div>  
+
 ### Interactive preview of methodology applied on the point cloud of a single tree
 
 > *Use the left mouse button to tilt the 3D model and the mouse scroll wheel to zoom in and out.* 
@@ -37,21 +51,6 @@ True-color render, random forest classification of point cloud and top-kill algo
 </div>
 
 > **Left panel:** True color representation of the point cloud. **Right panel:** RF classification; green is healthy, red is red, gray is gray, and black is shadow.Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
-
-<h3 id="PotreeViewer">Potree Viewer</h3>
-
-* The current scene is only rendering the RGB point cloud.  
-* Navigate to Scene > Objects > Point Clouds to toggle the visibility of the random forest (RF) classified point cloud and point cloud with classification probability.
-* RF classes: green is healthy, red is red, gray is gray, and black is shadow
-* RF probability: warmer color (orange-red) higher classification probability, cooler color (yellow-blue) lower classification probability.
-
->To open the Potree viewer in a new tab (full-screen), click <a href="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" target="_blank">here</a>.
-
-<div style="display: flex;">
-		<iframe src="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
-</div>  
-
-
 
 ## Presentations
 
