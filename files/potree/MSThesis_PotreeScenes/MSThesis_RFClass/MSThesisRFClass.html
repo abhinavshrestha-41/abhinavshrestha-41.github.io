@@ -28,6 +28,7 @@
 	<script src="./libs/potree/potree.js"></script>
 	<script src="./libs/plasio/js/laslaz.js"></script>
 	<script src="./libs/three.js"></script>
+	<script src="../../../libs/shapefile/shapefile.js"></script>
 	
 	<!-- INCLUDE ADDITIONAL DEPENDENCIES HERE -->
 	
@@ -39,7 +40,7 @@
 	</div>
 	
 	<script type="module">
-		import * as THREE from "../../libs/three.js/build/three.module.js";
+		import * as THREE from "../../../libs/three.js/build/three.module.js";
 	
 		// Initialize Potree viewer
 		window.viewer = new Potree.Viewer(document.getElementById("potree_render_area"));
@@ -95,7 +96,7 @@
 				callback: (pointcloud) => {
 					pointcloud.name = "RGB";
 					let material = pointcloud.material;
-					material.size = 4;
+					material.size = 6;
 					material.pointSizeType = Potree.PointSizeType.FIXED;
 					material.shape = Potree.PointShape.CIRCLE;
 					material.activeAttributeName = "rgba";
@@ -105,19 +106,19 @@
 				callback: (pointcloud) => {
 					pointcloud.name = "RF_Classification";
 					let material = pointcloud.material;
-					material.size = 4;
+					material.size = 6;
 					material.pointSizeType = Potree.PointSizeType.FIXED;
 					material.shape = Potree.PointShape.CIRCLE;
 					material.activeAttributeName = "classification";
 					pointcloud.visible = false;
-								
+													
 				},
 			},{
 				url: "./pointclouds/MSThesisRFClass/metadata.json",
 				callback: (pointcloud) => {
 					pointcloud.name = "RF_Class_Prob";
 					let material = pointcloud.material;
-					material.size = 4;
+					material.size = 6;
 					material.pointSizeType = Potree.PointSizeType.FIXED;
 					material.shape = Potree.PointShape.CIRCLE;
 					material.activeAttributeName = "RBI_NDVI_REDEDGE_max_prob";
@@ -127,6 +128,7 @@
 				},
 			}
 		];
+
 		
 		// start loading all point clouds asynchronously, get a promise for each one that resolves when it's loaded
 		let promises = pointclouds.map(p => Potree.loadPointCloud(p.url));
@@ -151,21 +153,255 @@
 				};
 				
 				viewer.setClassifications(customClassification);
-			}
 
+				
+			}
 			
+					
 			// Set initial camera position (your current view position, set from browser console with `console.log(viewer.scene.view.position);`)
-			viewer.scene.view.position.set(289033.95624412294, 5204491.008589532, 51.73155726597741);
+			viewer.scene.view.position.set(289034.6642755786, 5204522.703390681, 57.9884497147342);
 
 			// Set the look-at target (pivot point where the camera is looking, set from browser console with `console.log(viewer.scene.view.getPivot());`)
-			viewer.scene.view.lookAt(289032.5238838257, 5204567.8504722975, 15.745850918022235);
+			viewer.scene.view.lookAt(289032.5238838257, 5204567.8504722975, 15.745850918022313);
 
 			// Set background and fit view
 			viewer.setBackground("white", "white");
 			// viewer.fitToScreen();
 		}
+	// LOAD DUMMY POINTCLOUD -- dont add to viewer
+	// ADD SHAPEFILE
+
+	// Load and add point cloud to scene
+	Potree.loadPointCloud("./pointclouds/MSThesisRFClass/metadata.json", "MSThesisRFClass", async e => {
+
+	let scene = viewer.scene;
+	let pointcloud = e.pointcloud;
+
+		{
+
+			const loader = new Potree.ShapefileLoader();
+
+
+			// group all shapefile scene nodes into this node
+			const shapeNode = new THREE.Object3D();
+			viewer.scene.scene.add(shapeNode);
+			
+			// load waterways.shp and change colors to blue
+			const shpCrowns = await loader.load("./shapefiles/TreeDamagePolygons.shp");
+			shapeNode.add(shpCrowns.node);
+			window.shpCrowns = shpCrowns;
+			// shpCrowns.node.position.set(0, 0, -20); // Adjust -10 as needed
+
+			// Step 1: Create an array to hold the TK_z values
+			let tk_z_values = shpCrowns.features.map(feature => feature.properties.z_max);
+
+			// Log the tk_z_values array to verify its contents
+			// console.log("TK_z values:", tk_z_values);
+
+			// Step 2: Traverse each node and update the position based on the TK_z value
+			shpCrowns.node.children.forEach((node, index) => {
+				if (node.position && tk_z_values[index] !== undefined) {
+					let tk_z = tk_z_values[index];  // Get the TK_z value for this node
+					let new_z = tk_z
+					
+					// Log the updated Z value for each node
+					// console.log(`Node ${index} - Current Z: ${node.position.z}, Updated Z: ${new_z}`);
+					
+					node.position.set(node.position.x, node.position.y, new_z);  // Update Z position
+				}
+			});
+
+
+			// shpCrowns.node.traverse(node => {
+			// 	if(node.material){
+			// 		node.material.color.setRGB(1, 1, 0)
+			// 	}
+			// });
+			// Color mapping for damageType
+
+			// Color mapping for damageType (using RGB values)
+			const damageTypeColorMap = {
+				"Healthy": {r: 0.13, g: 0.55, b: 0.13},         // Forest Green (Healthy)
+				"Minor damage": {r: 1, g: 0.647, b: 0.3},       // Faded Orange (Minor damage)
+				"Moderate damage": {r: 1, g: 0.647, b: 0},      // Vibrant Orange (Moderate damage)
+				"Major damage": {r: 1, g: 0, b: 0},             // Vibrant Red (Major damage)
+				"Dead (gray)": {r: 0.5, g: 0.5, b: 0.5},        // Gray (Dead)
+				"Dead (mixed)": {r: 0.65, g: 0.16, b: 0.16},    // Brownish Red (Dead mixed)
+				"NA": {r: 0, g: 0, b: 0}                        // Black (Not Available)
+			};
+
+
+
+
+			// Create an array of damageType values from the features
+			const damageTypes = shpCrowns.features.map(feature => feature.properties.damageType);
+
+			// Ensure there are exactly 506 nodes and 506 damage types
+			// console.log("Number of nodes:", shpCrowns.node.children.length);
+			// console.log("Number of damageTypes:", damageTypes.length);
+
+			// Iterate through each feature and the corresponding node
+			shpCrowns.node.children.forEach((node, index) => {
+				if (node.material) {
+					const damageType = damageTypes[index]; // Get damageType for the node
+					// console.log("-- Damage Type:", damageType); // Debugging the damageType for the current node
+
+					// Check if the damageType exists in the color map, if not default to black
+					const { r, g, b } = damageTypeColorMap[damageType] || { r: 0, g: 0, b: 0 };
+
+					// Ensure the node has its own material (clone if necessary)
+					if (!node.material.isMaterial) {
+						// If node doesn't have a material (it could be a group or other object type)
+						node.material = new THREE.MeshStandardMaterial(); // Create a default material
+					}
+
+					// If the material is shared between nodes, clone it to avoid shared state
+					const nodeMaterial = node.material.clone();
+					
+					// Apply the RGB color to the cloned material
+					nodeMaterial.color.setRGB(r, g, b);
+
+					// Assign the cloned material back to the node
+					node.material = nodeMaterial;
+
+					// Log the applied color for debugging
+					// console.log(`Node ${index} - Damage Type: ${damageType}, RGB: (${r}, ${g}, ${b})`);
+				}
+			});
+
+
+			// this is necessary so that fat lines are correctly sized
+			viewer.addEventListener("update", () => {
+				const size = viewer.renderer.getSize(new THREE.Vector2());
+			
+				shpCrowns.setResolution(size.width, size.height);
+
+			});
+
+			shpCrowns.node.visible = false
+			
+			viewer.onGUILoaded(() => {
+				// Add entry to object list in sidebar
+				let tree = $(`#jstree_scene`);
+				let parentNode = "other";
+				
+				let shpCrownsID = tree.jstree('create_node', parentNode, { 
+						"text": "Damage severity tree crowns", 
+						"icon": `${Potree.resourcePath}/icons/triangle.svg`,
+						"object": shpCrowns.node,
+						"data": shpCrowns.node,
+					}, 
+					"last", false, false);
+				tree.jstree(shpCrowns.node.visible ? "check_node" : "uncheck_node", shpCrownsID);
+
+			});
+			
+		}
+		
+		{
+				{
+					let elTitle = $(`
+						<span>
+							Top-killed tree
+						</span>
+					`);
+					elTitle.find("img[name=action_set_scene]").click( (event) => {
+						event.stopPropagation();
+						viewer.setScene(scene); 
+					});
+					elTitle.toString = () => "Top-killed tree";
+
+					let a_TopKill = new Potree.Annotation({
+						position: [289005.078, 5204584.871, 12.667],
+						title: elTitle,
+						cameraPosition: [288985.999, 5204568.038, 26.941],
+						cameraTarget: [289005.661, 5204585.007, 4.641],
+						description: `Click on the label to zoom to tree.`
+					});
+
+					scene.annotations.add(a_TopKill);
+				}
+
+				{
+					let elTitle = $(`
+						<span>
+							Healthy tree
+						</span>
+					`);
+					elTitle.find("img[name=action_set_scene]").click( (event) => {
+						event.stopPropagation();
+						viewer.setScene(scene); 
+					});
+					elTitle.toString = () => "Healthy tree";
+
+					let a_Healthy = new Potree.Annotation({
+						position: [288995.809, 5204598.458, 9.921],
+						title: elTitle,
+						cameraPosition: [288987.419, 5204589.638, 24.715],
+						cameraTarget: [288993.241, 5204595.893, 8.149],
+						description: `Click on the label to zoom to tree.`
+					});
+
+					scene.annotations.add(a_Healthy);
+				}
+
+				{
+					let elTitle = $(`
+						<span>
+							Dead tree
+						</span>
+					`);
+					elTitle.find("img[name=action_set_scene]").click( (event) => {
+						event.stopPropagation();
+						viewer.setScene(scene); 
+					});
+					elTitle.toString = () => "Dead tree";
+
+					let a_Dead = new Potree.Annotation({
+						position: [289021.620, 5204616.752, 13.668],
+						title: elTitle,
+						cameraPosition: [289016.336, 5204599.655, 24.288],
+						cameraTarget: [289021.370, 5204615.993, 6.904],
+						description: `Click on the label to zoom to tree.`
+					});
+
+					scene.annotations.add(a_Dead);
+				}
+
+				{
+					let elTitle = $(`
+						<span>
+							Red tree (damaged)
+						</span>
+					`);
+					elTitle.find("img[name=action_set_scene]").click( (event) => {
+						event.stopPropagation();
+						viewer.setScene(scene); 
+					});
+					elTitle.toString = () => "Red tree (damaged)";
+
+					let a_Red = new Potree.Annotation({
+						position: [289011.555, 5204625.495, 7.985],
+						title: elTitle,
+						cameraPosition: [289021.659, 5204620.333, 18.561],
+						cameraTarget: [289013.798, 5204624.187, 5.854],
+						description: `Click on the label to zoom to tree.`
+					});
+
+					scene.annotations.add(a_Red);
+				}
+
+				
+			}
+
+	
+});
+
+
 
 		load();
+
+	
 
 	</script>
 	
