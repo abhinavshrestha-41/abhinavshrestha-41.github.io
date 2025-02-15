@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-### *Combining Multispectral and Three-Dimensional Data From Drone Imagery to Detect Forest Insect Damage: An Evaluation of a Novel Approach to Identify the Vertical Structure of Damage in Trees in the Northern Rocky Mountains, USA*
+### Combining Multispectral and Three-Dimensional Data From Drone Imagery to Detect Forest Insect Damage: An Evaluation of a Novel Approach to Identify the Vertical Structure of Damage in Trees in the Northern Rocky Mountains, USA
 
 Project description: My M.S. research project focused on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. The project explored the utlity of point cloud data derived from Structure for Motion (SfM) for the classification and characterization of vertical tree damage of a UAS mission area. I used tools such as ArcGIS Pro, Agisoft Metashape, CloudCompare, and R and Python programming to create new algorithms and establish a novel methodology.   
 
@@ -15,10 +15,6 @@ Project description: My M.S. research project focused on evaluating methods of d
 </div>
 
 Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see details in the ['Research Portfolio'](/portfolio/) page*).  
-
-A DJI Matrice 210 drone equipped with a <a href="https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide" target="_blank">MicaSense RedEdge-MX sensor</a> (5-band calibrated sensor) from Washington State University's <a href = "https://labs.wsu.edu/meddenslab/" target="_blank">Forest Ecosystem Dynamics Lab</a> (*research partners*) was used for imagery acquisition. UAS image acquisition mission was planned and operated by <a href="https://atstahl.github.io/">Dr. Amanda Stahl</a>. Here preview of the UAS-photogrammetry derived point cloud data I am working with (*data is displayed on CloudCompare*):
-
-<img src="/files/MSProject_PC_data_demo.png" alt="Image showing point cloud data used in MS project displayed in CloudCompare" style="max-width: 100%; height: auto;">  
 
 ## Journal article
 
