@@ -45,23 +45,10 @@ Drone data used for this MS thesis was collected for a broader project assessing
 
 There are two top-kill algorithms implemented for this project: `top2bin` and `bin2bin`. Both algorithms begin at the top of the tree and progresses downward. Details for the each algorithm are as follows:
 
-![top2bin_V_bin2bin](../files/top2bin_V_bin2bin.png)
-
-### `top2bin`  
-
-<img align="right" src="../files/top2bin.gif">
-
-* The `top2bin` algorithm assesses the percentage of damage points within a set of height bins from the top of the tree to a given height. 
-
-<br>
-
-### `bin2bin`
-
-<img align="right" src="../files/bin2bin.gif">
-
-* The `bin2bin` algorithm assesses the percentage of damage points for each height bin beginning at the top of the tree and progressing downward.  
-
-<br>
+| top2bin    | bin2bin |
+| -------- | ------- |
+|The `top2bin` algorithm assesses the percentage of damage points within a set of height bins from the top of the tree to a given height. | The `bin2bin` algorithm assesses the percentage of damage points for each height bin beginning at the top of the tree and progressing downward.  |
+| <img src="../files/top2bin.gif"> | <img src="../files/bin2bin.gif">  |
 
 ### Interactive preview of top-kill detection algorithm on the point cloud of a single tree
 
