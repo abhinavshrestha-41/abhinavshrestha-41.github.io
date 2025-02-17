@@ -46,7 +46,7 @@ Drone data used for this MS thesis was collected for a broader project assessing
 There are two top-kill algorithms implemented for this project: `top2bin` and `bin2bin`. Both algorithms begin at the top of the tree and progresses downward. Details for the each algorithm are as follows:
 
 | top2bin    | bin2bin |
-| -------- | ------- |
+| :------: | :------: |
 |The `top2bin` algorithm assesses the percentage of damage points within a set of height bins from the top of the tree to a given height. | The `bin2bin` algorithm assesses the percentage of damage points for each height bin beginning at the top of the tree and progressing downward.  |
 | <img src="../files/top2bin.gif"> | <img src="../files/bin2bin.gif">  |
 
@@ -62,9 +62,7 @@ True-color render, random forest classification of point cloud and top-kill algo
 
 > **Left panel:** True color representation of the point cloud. **Right panel:** RF classification; green is healthy, red is red, gray is gray, and black is shadow.Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
 
-<br>
-
-#### Summary of tree damage metrics:  
+### Summary of tree damage metrics:  
 ![treeDamageMetrics](../files/finalScreen.png)
 
 ## Presentations
