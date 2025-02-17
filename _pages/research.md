@@ -47,26 +47,19 @@ There are two top-kill algorithms implemented for this project: `top2bin` and `b
 
 ![top2bin_V_bin2bin](../files/top2bin_V_bin2bin.png)
 
-#### `top2bin`  
+### `top2bin`  
 
 <img align="right" src="../files/top2bin.gif">
 
 * The `top2bin` algorithm assesses the percentage of damage points within a set of height bins from the top of the tree to a given height. 
-* For example: 
-    * if a tree is 10 m tall, the `top2bin`  algorithm assesses damage from 10 m above the ground to 9.75 m above ground (0.25 m bin) for the first set of bins (consisting of one 0.25-m bin).
-    * Then, the algorithm assesses damage from 10 m above ground to 9.5 m above ground for the second set (consisting of two 0.25-m bins). 
-    * The algorithm halts when the percentage of damaged points within a set of bins is below a threshold. 
 
+<br>
 
-#### `bin2bin`
+### `bin2bin`
 
 <img align="right" src="../files/bin2bin.gif">
 
-* The `bin2bin` algorithm assesses the percentage of damage points for each height bin beginning at the top of the tree and progressing downward. 
-* For example:
-    * if the tree is 10 m tall, the `bin2bin` algorithm assesses damage from 10 m above ground to 9.75 m above ground for the first bin. 
-    * Then, the algorithm assesses damage from 9.75 m above ground to 9.5 m above ground for the second bin. 
-    * The algorithm halts when the percentage of damaged points within a bin is below a threshold.  
+* The `bin2bin` algorithm assesses the percentage of damage points for each height bin beginning at the top of the tree and progressing downward.  
 
 <br>
 
