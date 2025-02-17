@@ -41,7 +41,36 @@ Drone data used for this MS thesis was collected for a broader project assessing
 		<iframe src="/files/potree/MSThesis_PotreeScenes/MSThesis_RFClass/MSThesisRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
 </div>  
 
-### Interactive preview of methodology applied on the point cloud of a single tree
+## Top-kill detection and assessment algorithms
+
+There are two top-kill algorithms implemented for this project: `top2bin` and `bin2bin`. Both algorithms begin at the top of the tree and progresses downward. Details for the each algorithm are as follows:
+
+![top2bin_V_bin2bin](../files/top2bin_V_bin2bin.png)
+
+#### `top2bin`  
+
+<img align="right" src="../files/top2bin.gif">
+
+* The `top2bin` algorithm assesses the percentage of damage points within a set of height bins from the top of the tree to a given height. 
+* For example: 
+    * if a tree is 10 m tall, the `top2bin`  algorithm assesses damage from 10 m above the ground to 9.75 m above ground (0.25 m bin) for the first set of bins (consisting of one 0.25-m bin).
+    * Then, the algorithm assesses damage from 10 m above ground to 9.5 m above ground for the second set (consisting of two 0.25-m bins). 
+    * The algorithm halts when the percentage of damaged points within a set of bins is below a threshold. 
+
+
+#### `bin2bin`
+
+<img align="right" src="../files/bin2bin.gif">
+
+* The `bin2bin` algorithm assesses the percentage of damage points for each height bin beginning at the top of the tree and progressing downward. 
+* For example:
+    * if the tree is 10 m tall, the `bin2bin` algorithm assesses damage from 10 m above ground to 9.75 m above ground for the first bin. 
+    * Then, the algorithm assesses damage from 9.75 m above ground to 9.5 m above ground for the second bin. 
+    * The algorithm halts when the percentage of damaged points within a bin is below a threshold.  
+
+<br>
+
+### Interactive preview of top-kill detection algorithm on the point cloud of a single tree
 
 > *Use the left mouse button to tilt the 3D model and the mouse scroll wheel to zoom in and out.* 
 
@@ -52,6 +81,11 @@ True-color render, random forest classification of point cloud and top-kill algo
 </div>
 
 > **Left panel:** True color representation of the point cloud. **Right panel:** RF classification; green is healthy, red is red, gray is gray, and black is shadow.Top-kill algorithm applied to point cloud, 3D plane represents the height of top-kill detected by the algorithm.
+
+<br>
+
+#### Summary of tree damage metrics:  
+![treeDamageMetrics](../files/finalScreen.png)
 
 ## Presentations
 
