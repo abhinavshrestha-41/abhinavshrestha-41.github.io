@@ -56,8 +56,9 @@ There are two top-kill algorithms implemented for this project: `top2bin` and `b
 
 True-color render, random forest classification of point cloud and top-kill algorithm
 <div style="display: flex;">
-  <iframe src="files/potree/MSThesis_PotreeScenes/IndividualTree_RGB/IndividualTree_RGB.html" width="50%" height="600" style="flex: 1;"></iframe>
+  <iframe src="/files/potree/MSThesis_PotreeScenes/IndividualTree_RGB/IndividualTree_RGB.html" width="50%" height="600" style="flex: 1;"></iframe>
 </div>
+
 
 > **Left panel:** True color representation of the point cloud. **Right panel:** RF classification; green is healthy, red is red, gray is gray, and black is shadow.Top-kill algorithm applied to point cloud, red plane represents the height of top-kill detected by the algorithm.
 
