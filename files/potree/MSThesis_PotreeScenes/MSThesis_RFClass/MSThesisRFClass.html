@@ -12,6 +12,16 @@
 	<link rel="stylesheet" type="text/css" href="./libs/openlayers3/ol.css">
 	<link rel="stylesheet" type="text/css" href="./libs/spectrum/spectrum.css">
 	<link rel="stylesheet" type="text/css" href="./libs/jstree/themes/mixed/style.css">
+
+	<style>
+        .resizable-image {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -66,8 +76,7 @@
 			let content = section.last();
 			content.html(`
 			<div class="pv-menu-list">
-				Credits:
-				Potree and PotreeConverter code repositories were used to convert the .las files into a web-server hosted potree scene. For more information, navigate to the "About" section below.
+			<i>Potree and PotreeConverter code repositories were used to convert the .las files into a web-server hosted potree scene. For more information, navigate to the "About" section below.</i>
 				<br>
 				<br>				
 				Journal article: 
@@ -78,6 +87,26 @@
 				Citation:
 				<br><p>
 				Shrestha, A.; Hicke, J.A.; Meddens, A.J.H.; Karl, J.W.; Stahl, A.T. Evaluating a Novel Approach to Detect the Vertical Structure of Insect Damage in Trees Using Multispectral and Three-Dimensional Data from Drone Imagery in the Northern Rocky Mountains, USA. Remote Sens. 2024, 16, 1365. https://doi.org/10.3390/rs16081365</p>
+				<br>
+				Funding and team members:
+				<br><p>
+				Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the <a href = "https://www.earthdata.nasa.gov/esds/csda" target="_blank">NASA Commercial SmallSat Data Analysis (NASA CSDA) project</a> (NASA CSDA, award #80NSSC21K115).
+				<br>
+				<br>
+				NASA CSDA team: 
+				<ul>
+					<li>Dr. Arjan Meddens (Washington State University (WSU))</li>
+					<li>Dr. Jeffrey Hicke (University of Idaho (UI))</li>
+					<li>Dr. Amanda Stahl (WSU)</li>
+					<li>Dr. Andrew Hudak (US Forest Service (USFS))</li>
+					<li>Benjamin Bright (USFS)</li>
+					<li>Luke Schefke (WSU)</li>
+					<li>Abhinav Shrestha (UI)</li>
+				</ul>
+				<br>
+
+				    <img src= "./ProjectInstitutionsBanner.png" alt="Project institutions" class="resizable-image">
+				</p>
 			</div>
 			`);
 			section.first().click(() => content.slideToggle());
@@ -92,7 +121,7 @@
 		// specify point clouds that are to be loaded and callbacks to invoke 
 		let pointclouds = [
 			{	
-				url: "../MSThesis_RGB/pointclouds/MSThesis_RGB/metadata.json",
+				url: "../MSThesis_RGB_clean/pointclouds/MSThesis_RGB_clean/metadata.json",
 				callback: (pointcloud) => {
 					pointcloud.name = "RGB";
 					let material = pointcloud.material;
@@ -145,10 +174,10 @@
 				// Define a function to set the custom classification scheme
 		
 				const customClassification = {
-					1: { visible: true, name: "Class 1", color: [0.13, 0.55, 0.13, 1] },  // Forest Green
-					2: { visible: true, name: "Class 2", color: [0.7, 0.7, 0.7, 1] },  // Brighter Gray
-					3: { visible: true, name: "Class 3", color: [0.65, 0.16, 0.16, 1] },  // Brownish-Red (Insect Damage)
-					4: { visible: true, name: "Class 4", color: [0, 0, 0, 1] },  // Black (Shadow)
+					1: { visible: true, name: "Healthy", color: [0.13, 0.55, 0.13, 1] },  // Forest Green
+					2: { visible: true, name: "Gray (dead)", color: [0.7, 0.7, 0.7, 1] },  // Brighter Gray
+					3: { visible: true, name: "Red (dead)", color: [0.65, 0.16, 0.16, 1] },  // Brownish-Red (Insect Damage)
+					4: { visible: true, name: "Shadow", color: [0, 0, 0, 1] },  // Black (Shadow)
 					DEFAULT: { visible: true, name: "Default", color: [1, 1, 1, 1] }  // White
 				};
 				
