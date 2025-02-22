@@ -328,6 +328,34 @@
 		}
 		
 		{
+			{
+					let elTitle = $(`
+						<span>
+							Dual Window (linked-view)
+							<img src="${Potree.resourcePath}/icons/goto.svg" 
+								name="action_set_scene"
+								class="annotation-action-icon" 
+								style="filter: invert(1);" />
+						</span>
+					`);
+					elTitle.find("img[name=action_set_scene]").click( (event) => {
+						event.stopPropagation();
+						window.open('./MSThesis_RFClass_RGB_dualWindow.html', '_blank', '');
+						// viewer.setScene(sceneLion); 
+					});
+					elTitle.toString = () => "Dual Window (linked-view)";
+
+					let a_DualWindow = new Potree.Annotation({
+						position: [289075.272, 5204616.244, 35.0],
+						title: elTitle,
+						cameraPosition: [289039.427, 5204470.637, 38.394],
+						cameraTarget: [289041.872, 5204592.154, 19.472],
+						description: `<ul><li>Click on the go-to icon to open the dual window linked-view.</li></ul>`
+					});
+
+					scene.annotations.add(a_DualWindow);
+				}
+				
 				{
 					let elTitle = $(`
 						<span>
