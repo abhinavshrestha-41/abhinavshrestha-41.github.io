@@ -9,12 +9,11 @@ redirect_from:
 ---
 <p>Welcome to my GitHub Academic Page! My name is Abhinav Shrestha, I go by 'Abhi' for short (pronouced /ɑː-biː/; अभिनव in Nepali). I am a M.S. graduate from the <a href = "https://www.uidaho.edu/" target="_blank">University of Idaho</a> (Class of 2024), where I worked with <a href = "https://webpages.uidaho.edu/~jhicke/" target="_blank">Dr. Jeffrey Hicke</a> in the Ecological Geography lab,  <a href = "https://www.uidaho.edu/sci/ess" target="_blank">Department of Earth and Spatial Sciences</a>.</p>
 
-<p>In my most recent role at <a href = "https://www.redcastleresources.com/" target="_blank">RedCastle Resources, Inc.</a>, I worked as a Remote Sensing and Geospatial Specialist, where I served as a federal contractor to the USDA Forest Service’s <a href = "https://www.fs.usda.gov/about-agency/gtac" target="_blank">Geospatial Office (GO)</a>. This role involved analytical collaboration on various operational operational remote sensing and geospatial projects with USDA Forest Service, leveraging data, technology, and scientific expertise to create strategic insights and provide technical support.</p>
+<p>Most recent role: Remote Sensing and Geospatial Specialist, <a href = "https://www.redcastleresources.com/" target="_blank">RedCastle Resources, Inc.</a>. I served as a federal contractor to the USDA Forest Service’s <a href = "https://www.fs.usda.gov/about-agency/gtac" target="_blank">Geospatial Office (GO)</a>. This role involved analytical collaboration on various operational operational remote sensing and geospatial projects with USDA Forest Service, leveraging data, technology, and scientific expertise to create strategic insights and provide technical support.</p>
 
 <!-- <div style="border: 1px solid #ffa500; background-color: #f9f9f9; padding: 10px; border-radius: 5px; color: #333;">
 <b>Professional Role</b>: Geospatial and remote sensing specialist at RedCastle Resources, Inc. <br>I am currently working as a federal contractor for the USDA Forest Service's <a href="https://www.fs.usda.gov/about-agency/gtac" target="_blank">Geospatial Technology and Applications Center (GTAC)</a>. 
 </div> -->
-<br>
 
 *For more information on my professional and academic experience, please navigate to the [CV](/cv/) page.*
 
