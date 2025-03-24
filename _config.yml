@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Abhinav Shrestha"
 title_separator          : "-"
 name                     : &name "Abhinav Shrestha"
-description              : &description "M.S. Student at University of Idaho"
+description              : &description "Remote Sensing and Geospatial Specialist"
 url                      : https://abhinavshrestha-41.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "abhinavshrestha-41/abhinavshrestha-41.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Abhinav Shrestha"
   avatar           : "profile.jpg"
-  bio              : "Geospatial and Remote Sensing Specialist. MS Geography, University of Idaho. (He/Him)"
+  bio              : "Remote Sensing and Geospatial Specialist. MS Geography, University of Idaho. (He/Him)"
   location         : 
   employer         :
   pubmed           : 
