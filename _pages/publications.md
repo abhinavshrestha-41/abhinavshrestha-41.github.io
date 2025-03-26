@@ -32,17 +32,21 @@ Meddens, A., Bright, B., Neigh, C., Wooten, M., Caraballo-Vega, J., Egan, J., Ha
 
 ### Presentations
 
-**Shrestha, A.**, J. A. Hicke, A. J. H. Meddens, J. W. Karl, A. T. Stahl, [Evaluating the combination of reflectances and three-dimensional point cloud from drone imagery for detecting forest insect damage](https://perma.cc/8M9M-SXZE), contributed talk, University of Idaho GIS Day, November 2023.
+Riley, K., Houtman, R., Zimmer, S., Leatherman, L., Housman, I., **Shrestha, A.** TreeMap and FuelMap: imputed tree and downed woody material information from the FIA databases for the forests of CONUS, background and methodological updates in the 2020 and 2022 datasets, contributed talk, *USDA Forest Service Forest Inventory and Analysis (FIA) Science Symposium*, 19-21 November 2023, Virtual Conference.
 
-Harrison, G. R., **A. Shrestha**, JW. Karl, <a href ="https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276129&mode=presInfo" target="_blank">“Seeing shrubs from the sky: an exploration of using drone-based method to estimate shrub canopy volume”</a>, contributed talk, <a href="https://esa.org/portland2023/" target="_blank">Ecological Society of America (ESA) Annual Conference, 6-11 August 2023, Portland, OR</a>.
+**Shrestha, A.**, Hicke J. A., Meddens A. J. H, Karl J. W., Stahl A. T., <a href="https://static1.squarespace.com/static/620d090eacd0801f96740b97/t/67447d84d5d61037b431b0b6/1732541829006/2024_WFIWC+Proceedings+Final.pdf#page=75" target="_blank">Evaluation of a novel approach to detect the vertical structure of insect damage in trees using multispectral and three-dimensional data from drone imagery in the northern Rocky Mountains</a>, USA, poster presentation, *72nd Western Forest Insect Work Conference (WFIWC)*, 22-25 April 2024, Missoula, MT.
 
-Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Hanavan, <a href="https://static1.squarespace.com/static/620d090eacd0801f96740b97/t/643e865140b54f0d7e22609a/1681819218081/2023+WFIWC+Full+Program.pdf#page=51" target="_blank">“Using Remote Sensing to Study Tree Damage from Insects”</a>, keynote speaker, Western Forest Insect Work Conference (WFIWC), 25-27 April 2023, Seattle, WA. 
+**Shrestha, A.**, J. A. Hicke, A. J. H. Meddens, J. W. Karl, A. T. Stahl, [Evaluating the combination of reflectances and three-dimensional point cloud from drone imagery for detecting forest insect damage](https://perma.cc/8M9M-SXZE), contributed talk, *University of Idaho GIS Day*, November 2023, Moscow, ID.
 
-**Shrestha, A.**, & Sanchini P. <a href="https://www.coe.edu/application/files/7515/5508/7412/2019_SRS_Program_ABSTRACTS.pdf#page=20" target="_blank">"A Geographic Information System (GIS)-based study on topographical preference of common tree species in Palisades-Kepler State Park"</a>, contributed talk, Coe College Student Research Symposium, Coe College, Cedar Rapids, IA, 2019.
+Harrison, G. R., **A. Shrestha**, JW. Karl, <a href ="https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276129&mode=presInfo" target="_blank">“Seeing shrubs from the sky: an exploration of using drone-based method to estimate shrub canopy volume”</a>, contributed talk, <a href="https://esa.org/portland2023/" target="_blank">*Ecological Society of America (ESA) Annual Conference*, 6-11 August 2023, Portland, OR</a>.
 
-Obiesie, C., **Shrestha, A.**, & Sanchini, P. "Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa", poster presentation, Coe College Student Research Symposium, Coe College, Cedar Rapids, IA, 2019.
+Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Hanavan, <a href="https://static1.squarespace.com/static/620d090eacd0801f96740b97/t/643e865140b54f0d7e22609a/1681819218081/2023+WFIWC+Full+Program.pdf#page=51" target="_blank">“Using Remote Sensing to Study Tree Damage from Insects”</a>, keynote speaker, *71st Western Forest Insect Work Conference (WFIWC)*, 25-27 April 2023, Seattle, WA. 
 
-Yoshida, K., **Shrestha, A.**, & Chihak, B. "How Roadway Design Affects Cyclist-Motorist Interactions", poster presentation, Tri-State Undergraduate Psychology Research Conference, Loras College, Dubuque, IA, 2018.
+**Shrestha, A.**, & Sanchini P. <a href="https://www.coe.edu/application/files/7515/5508/7412/2019_SRS_Program_ABSTRACTS.pdf#page=20" target="_blank">A Geographic Information System (GIS)-based study on topographical preference of common tree species in Palisades-Kepler State Park</a>, contributed talk, *Coe College Student Research Symposium*, Coe College, Cedar Rapids, IA, 2019.
+
+Obiesie, C., **Shrestha, A.**, & Sanchini, P. Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa, poster presentation, *Coe College Student Research Symposium*, Coe College, Cedar Rapids, IA, 2018.
+
+Yoshida, K., **Shrestha, A.**, & Chihak, B. How Roadway Design Affects Cyclist-Motorist Interactions, poster presentation, *Tri-State Undergraduate Psychology Research Conference*, Loras College, Dubuque, IA, 2018.
 
 <h2 id="GitHubRepositories"><img src="../images/github.png" alt="GitHub-Icon" width="30" height="30" style="vertical-align: middle;"> GitHub Repositories</h2> 
 
