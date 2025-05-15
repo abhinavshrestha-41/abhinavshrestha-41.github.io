@@ -26,7 +26,7 @@ Drone data used for this MS thesis was collected for a broader project assessing
 <h3 id="GraphicalAbstract">Graphical abstract<h3>
 <img src="/files/GraphicalAbstract.jpg" alt="Graphical abstract for journal article" style="max-width: 100%; height: auto;">  
 
-<h2 id="PotreeViewer">Potree Point Cloud Viewer</h2>
+<h2 id="PotreeViewer">Potree Point Cloud Viewer</h2>  
 
 * The current scene is only rendering the RGB point cloud.  
 * Navigate to *Scene* > *Objects* > *Point Clouds* to toggle the visibility of the random forest (RF) classified point cloud and point cloud with classification probability.
