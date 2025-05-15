@@ -23,7 +23,7 @@ Drone data used for this MS thesis was collected for a broader project assessing
     )](https://doi.org/10.3390/rs16081365)
 
 
- Graphical abstract
+<h3 id="GraphicalAbstract">Graphical abstract<h3>
 <img src="/files/GraphicalAbstract.jpg" alt="Graphical abstract for journal article" style="max-width: 100%; height: auto;">  
 
 <h2 id="PotreeViewer">Potree Point Cloud Viewer</h2>
@@ -65,7 +65,7 @@ True-color render, random forest classification of point cloud and top-kill algo
 ### Summary of tree damage metrics:  
 ![treeDamageMetrics](../files/finalScreen.png)
 
-## Presentations
+<h2 id="GISDayPrez">Presentations</h2>
 
 *I presented a condensed version of my MS research for University of Idaho's [GIS day 2023](https://www.lib.uidaho.edu/gisday/) as a contributed talk.* 
 > To view the recording of the presentation, please follow this link: 
