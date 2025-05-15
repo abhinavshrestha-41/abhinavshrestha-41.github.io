@@ -23,7 +23,7 @@ Drone data used for this MS thesis was collected for a broader project assessing
     )](https://doi.org/10.3390/rs16081365)
 
 
-<h3 id="GraphicalAbstract">Graphical abstract<h3>
+<h3 id="GraphicalAbstract">Graphical abstract</h3>
 <img src="/files/GraphicalAbstract.jpg" alt="Graphical abstract for journal article" style="max-width: 100%; height: auto;">  
 
 <h2 id="PotreeViewer">Potree Point Cloud Viewer</h2>  
