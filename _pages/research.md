@@ -43,7 +43,6 @@ Drone data used for this MS thesis was collected for a broader project assessing
 <div style="display: flex;">
 		<iframe src="/files/potree/html/MSThesisRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
 </div>  
-<br>
 <!-- Add a blank line after the HTML block so md format renders correctly -->  
 
 ## Top-kill detection and assessment algorithms
