@@ -43,9 +43,9 @@ Drone data used for this MS thesis was collected for a broader project assessing
 <div style="display: flex;">
 		<iframe src="/files/potree/html/MSThesisRFClass.html" width="50%" height="600" style="flex: 1;"></iframe>
 </div>  
-<br>  
+<br>
 
-## Top-kill detection and assessment algorithms
+<!-- Add a blank line after the HTML block so md format renders correctly -->
 
 There are two top-kill algorithms implemented for this project: `top2bin` and `bin2bin`. Both algorithms begin at the top of the tree and progresses downward. Details for the each algorithm are as follows:
 
