@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Potree Viewer</title>
+
+	<link rel="stylesheet" type="text/css" href="./libs/potree/potree.css">
+	<link rel="stylesheet" type="text/css" href="./libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="./libs/openlayers3/ol.css">
+	<link rel="stylesheet" type="text/css" href="./libs/spectrum/spectrum.css">
+	<link rel="stylesheet" type="text/css" href="./libs/jstree/themes/mixed/style.css">
+</head>
+
+<body>
+	<script src="../libs/jquery/jquery-3.1.1.min.js"></script>
+	<script src="../libs/spectrum/spectrum.js"></script>
+	<script src="../libs/jquery-ui/jquery-ui.min.js"></script>
+	<script src="../libs/other/BinaryHeap.js"></script>
+	<script src="../libs/tween/tween.min.js"></script>
+	<script src="../libs/d3/d3.js"></script>
+	<script src="../libs/proj4/proj4.js"></script>
+	<script src="../libs/openlayers3/ol.js"></script>
+	<script src="../libs/i18next/i18next.js"></script>
+	<script src="./libs/jstree/jstree.js"></script>
+	<script src="../libs/potree/potree.js"></script>
+	<script src="../libs/plasio/js/laslaz.js"></script>
+	<script src="../libs/shapefile/shapefile.js"></script>
+	
+	<!-- INCLUDE ADDITIONAL DEPENDENCIES HERE -->
+	<!-- INCLUDE SETTINGS HERE -->
+	
+	<!-- <div class="potree_container" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; ">
+		<div id="potree_render_area" style="background-image: url('../../../build/potree/resources/images/background.jpg');"></div>
+		<div id="potree_sidebar_container"> </div>
+	</div> -->
+
+	<div class="potree_container" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; display: flex; ">
+		<div style="width: 50%" id="potree_render_area">
+			<div id="potree_description" class="potree_info_text" style="color: black; text-shadow: none; border: solid red 2px; padding: 10px; background: yellow;">   Use this window to move both models   </br></div>
+				
+	</div>
+</div>
+	<div class="potree_container" style="position: absolute; width: 100%; height: 100%; left: 50%; top: 0px; display: flex; ">
+		<div style="width: 50%" id="potree_render_area2">
+			<div id="potree_description" class="potree_info_text" 
+     style="position: absolute; top: 10px; left: 16%; transform: translateX(0); text-align: center; z-index: 1000; color: white; text-shadow: none;">
+    Point Cloud Segmentation of Individual Shrubs
+</div>
+	</div>
+</div>	
+	
+	<script type="module">
+		import * as THREE from "../libs/three.js/build/three.module.js";
+			
+		
+		window.viewer = new Potree.Viewer(document.getElementById("potree_render_area"));
+
+		viewer.setEDLEnabled(true);
+		viewer.setFOV(80);
+		viewer.setPointBudget(4 * 1000 * 1000);
+		document.title = "";
+		viewer.setBackground("black");// ["skybox", "gradient", "black", "white"];
+		// viewer.setDescription(`RGB Point Cloud of Individual Tree<ul><b>Use this window to interact with both models</b></ul>`);
+		viewer.loadSettingsFromURL();
+
+		viewer.loadGUI(() => {
+			viewer.setLanguage('en');
+			$("#menu_appearance").next().show();
+			$("#menu_tools").next().show();
+			$("#menu_scene").next().show();
+			// viewer.toggleSidebar();
+		});
+
+		Potree.loadPointCloud("./pointclouds/ShrubSeglidR/metadata.json", "ShrubSeglidR", e => {
+			let pointcloud = e.pointcloud;
+			let material = pointcloud.material;
+
+			material.size = 2;
+			material.pointSizeType = Potree.PointSizeType.ADAPTIVE;
+			material.shape = Potree.PointShape.CIRCLE;
+			material.activeAttributeName = "rgba";
+			viewer.scene.addPointCloud(pointcloud);
+
+          	 setTimeout(() => {
+				const pivot = new THREE.Vector3(712039.4531645057, 4801945.578951428, 0.4055041274124225);
+				const position = new THREE.Vector3(712042.5627351496, 4801940.028549951, 8.70049418412816);
+
+				const direction = position.clone().sub(pivot).normalize();
+				const newDistance = 12; // try 10, 20, 50, etc.
+				const newPosition = pivot.clone().add(direction.multiplyScalar(newDistance));
+
+				viewer.scene.view.setView(newPosition, pivot);
+			}, 50); // wait until the viewer is stable
+
+			viewer.fitToScreen();
+		});
+
+		window.viewer2 = new Potree.Viewer(document.getElementById("potree_render_area2"));
+
+		viewer2.toggleSidebar = () => {
+			// console.log("test");
+			let renderArea = $('#potree_render_area2');
+			let isVisible = renderArea.css('left') !== '50%';
+
+			if (isVisible) {
+				renderArea.css('left', '50%');
+			} else {
+				renderArea.css('left', '75%');
+			}
+
+			// viewer.toggleSidebar();
+		};
+
+		viewer2.setEDLEnabled(true);
+		viewer2.setFOV(60);
+		viewer2.setPointBudget(4 * 1000 * 1000);
+		viewer2.setBackground("white");// ["skybox", "gradient", "black", "white"];
+		// viewer2.setDescription(`Random Forest Classified Point Cloud of Individual Tree`);
+		viewer2.loadSettingsFromURL();
+		viewer2.setBackground("black");// ["skybox", "gradient", "black", "white"];
+
+		viewer2.loadGUI(() => {
+			viewer2.setLanguage('en');
+		});
+
+		Potree.loadPointCloud("./pointclouds/ShrubSeglidR/metadata.json", "ShrubSeglidR", async e => {
+			let pointcloud = e.pointcloud;
+			let material = pointcloud.material;
+
+			material.size = 2;
+			material.pointSizeType = Potree.PointSizeType.ADAPTIVE;
+			material.shape = Potree.PointShape.CIRCLE;
+			material.activeAttributeName = "treeIDNorm";
+			material.activeAttributeNormalized = true;  // Tell Potree to normalize values between min/max to [0,1]
+			material.minAttributeValue = 0.1;
+			material.maxAttributeValue = 0.48;
+			material.gradient = Potree.Gradients.SPECTRAL;
+			
+			viewer2.scene.addPointCloud(pointcloud);
+			
+			viewer2.fitToScreen();
+		});
+
+		// Listen for camera changes
+		viewer.addEventListener('camera_changed', (event) => {
+			// When camera changes, override camera of other viewer
+			viewer2.scene.overrideCamera = event.camera;
+		});
+
+		
+		
+	</script>
+	
+	
+  </body>
+</html>
+
+
