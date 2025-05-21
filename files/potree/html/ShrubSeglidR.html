@@ -7,11 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<title>Potree Viewer</title>
 
-	<link rel="stylesheet" type="text/css" href="./libs/potree/potree.css">
-	<link rel="stylesheet" type="text/css" href="./libs/jquery-ui/jquery-ui.min.css">
-	<link rel="stylesheet" type="text/css" href="./libs/openlayers3/ol.css">
-	<link rel="stylesheet" type="text/css" href="./libs/spectrum/spectrum.css">
-	<link rel="stylesheet" type="text/css" href="./libs/jstree/themes/mixed/style.css">
+	<link rel="stylesheet" type="text/css" href="../libs/potree/potree.css">
+	<link rel="stylesheet" type="text/css" href="../libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="../libs/openlayers3/ol.css">
+	<link rel="stylesheet" type="text/css" href="../libs/spectrum/spectrum.css">
+	<link rel="stylesheet" type="text/css" href="../libs/jstree/themes/mixed/style.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
 	<script src="../libs/proj4/proj4.js"></script>
 	<script src="../libs/openlayers3/ol.js"></script>
 	<script src="../libs/i18next/i18next.js"></script>
-	<script src="./libs/jstree/jstree.js"></script>
+	<script src="../libs/jstree/jstree.js"></script>
 	<script src="../libs/potree/potree.js"></script>
 	<script src="../libs/plasio/js/laslaz.js"></script>
 	<script src="../libs/shapefile/shapefile.js"></script>
@@ -74,7 +74,7 @@
 			// viewer.toggleSidebar();
 		});
 
-		Potree.loadPointCloud("./pointclouds/ShrubSeglidR/metadata.json", "ShrubSeglidR", e => {
+		Potree.loadPointCloud("../pointclouds/ShrubSeglidR/metadata.json", "ShrubSeglidR", e => {
 			let pointcloud = e.pointcloud;
 			let material = pointcloud.material;
 
@@ -126,7 +126,7 @@
 			viewer2.setLanguage('en');
 		});
 
-		Potree.loadPointCloud("./pointclouds/ShrubSeglidR/metadata.json", "ShrubSeglidR", async e => {
+		Potree.loadPointCloud("../pointclouds/ShrubSeglidR/metadata.json", "ShrubSeglidR", async e => {
 			let pointcloud = e.pointcloud;
 			let material = pointcloud.material;
 
