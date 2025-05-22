@@ -13,32 +13,33 @@ A detailed description of my M.S. research can be found in the <b>M.S. Research 
 <h2>Collaborative research:</h2>  
 
 <h2 id="DroneShrub"> A comparison and development of methods for estimating sagebrush shrub volume.</h2>
-<p>Role: <b>Collaborative Researcher</b>, UAV-based rangeland project</p>
+<p>Role: Collaborative Researcher, UAV-based rangeland project</p>
 <p>Principle investigator: <a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwoNLW6438AhVZI0QIHfYgAlYQFnoECAYQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgeorgia-harrison-3b709210a&usg=AOvVaw3d3NBEKO3kqVgopCBGMr5b&cshid=1671733498993523" target="_blank">Dr. Georgia Harrison</a>, Department of Plant Sciences, University of Idaho</p>  
 <p>Faculty advisor: <a href = "https://www.uidaho.edu/cnr/faculty/karl" target="_blank">Dr. Jason Karl</a>, Department of Forestry, Rangeland, and Fire Sciences, University of Idaho, Moscow, ID</p>
 
-<p>Project description: 
+<p>Project description and funding: 
   <ul>
     <li>Examine the suitability of using structure-from-motion derived point cloud generated from drone-captured images to estimate canopy volume.</li>
     <li>Test two frameworks to estimate shrub canopy volume from point cloud: volumetric technique using the <a href="https://www.cloudcompare.org/doc/wiki/index.php/2.5D_Volume" target="_blank">2.5D tool from CloudCompare</a> and allometric techniques replicating field-based measurement methods (see figure and interactive window below).</li>
+    <li>Preliminary exploration of the potential application of segmentation algorithms, intially developed for tree-top detection and segmentation, on shrubs.</li>
     <li>This project is funded by the Joint Fire Science Program's <a href = "https://www.firescience.gov/JFSP_funding_announcements.cfm" target="_blank">Graduate Research and Innovation (GRIN) Fellowship</a> secured by PI Georgia Harrison and is a part of her PhD dissertation.</p></li>
   </ul>
  
 <p>Journal article: <a href="https://doi.org/10.1002/ecs2.4877" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/DOI%3A%20-https%3A%2F%2Fdoi.org%2F10.1002%2Fecs2.4877-blue?logo=doi"></a></p>
 
 <p>
-Responsibilities:
+<!-- Responsibilities:
 <ul>
    <li>Use Git and GitHub for collaborative code sharing. GitHub repository URL: <a href = "https://github.com/gharrison159/UAVShrubVolumel" target="_blank">https://github.com/gharrison159/UAVShrubVolume</a></li>
    <li>Develop workflow of estimating shrub canopy volume with 3D data from drones by modifying currently available forestry-based remote sensing tools and techniques, such as testing tree-top detection and segmentation algorithms on shrubs (see example below).</li>
 </ul>
-</p>
+</p> -->
 
 <h3>Interactive examples:</h3>
 
 1. Allometric measurement of shrub canopy volume:
 <figure>
-<img alt="field-based shrub canopy volume measurement" src="../files/Figure2_landscape.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+<img alt="field-based shrub canopy volume measurement" src="../files/Figure2_landscape.jpg" style='height: 75%; width: 75%; object-fit: contain'>
 <figcaption>Shrub maximum height (a) and two measures of canopywidth (b). H is shrub height, D1 is the longest canopy width, and D2 is the greatest canopy width perpendicular to D1. Volume = ¼ × π × H × D₁ × D₂</figcaption>
 </figure>
 
@@ -49,13 +50,14 @@ Responsibilities:
 <div style="display: flex;">
   <iframe src="/files/potree/html/IndividualShrub.html" width="50%" height="600" style="flex: 1;"></iframe>
 </div>
+<br>
 
 
 
 2. Shrub detection and segmentation:
 
 <figure>
-<img alt="shrub detection and segmentation on subset data" src="../files/PC_VWF_IndvShrubDelineation_NorthArrow.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+<img alt="shrub detection and segmentation on subset data" src="../files/PC_VWF_IndvShrubDelineation_NorthArrow.jpg" style='height: 75%; width: 75%; object-fit: contain'>
 <figcaption>(a) Shrub crown delineations on a subset of the study site (16.2 × 14.2 m) using the variable window filter algorithm outlined as blue polygons are used to clip the point cloud of the study area into (b) individual shrub point clouds. (c) Direct point-cloud segmentation of individual shrubs on the same subset of the study site (16.2 × 14.2 m) represented by a set of repeating colors. (d) Shrubs can be filtered by their ID attribute and exported.</figcaption>
 </figure>
 
