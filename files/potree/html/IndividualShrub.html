@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Potree Viewer</title>
+
+	<link rel="stylesheet" type="text/css" href="./libs/potree/potree.css">
+	<link rel="stylesheet" type="text/css" href="./libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="./libs/openlayers3/ol.css">
+	<link rel="stylesheet" type="text/css" href="./libs/spectrum/spectrum.css">
+	<link rel="stylesheet" type="text/css" href="./libs/jstree/themes/mixed/style.css">
+</head>
+
+<body>
+	<script src="./libs/jquery/jquery-3.1.1.min.js"></script>
+	<script src="./libs/spectrum/spectrum.js"></script>
+	<script src="./libs/jquery-ui/jquery-ui.min.js"></script>
+	<script src="./libs/other/BinaryHeap.js"></script>
+	<script src="./libs/tween/tween.min.js"></script>
+	<script src="./libs/d3/d3.js"></script>
+	<script src="./libs/proj4/proj4.js"></script>
+	<script src="./libs/openlayers3/ol.js"></script>
+	<script src="./libs/i18next/i18next.js"></script>
+	<script src="./libs/jstree/jstree.js"></script>
+	<script src="./libs/potree/potree.js"></script>
+	<script src="./libs/plasio/js/laslaz.js"></script>
+	
+	<!-- INCLUDE ADDITIONAL DEPENDENCIES HERE -->
+	<!-- INCLUDE SETTINGS HERE -->
+	
+	<div class="potree_container" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; ">
+		<div id="potree_render_area" style="background-image: url('../build/potree/resources/images/background.jpg');"></div>
+		<div id="potree_sidebar_container"> </div>
+	</div>
+	
+	<script>
+	
+		window.viewer = new Potree.Viewer(document.getElementById("potree_render_area"));
+		
+		viewer.setEDLEnabled(true);
+		viewer.setFOV(60);
+		viewer.setPointBudget(2_000_000);
+		<!-- INCLUDE SETTINGS HERE -->
+		viewer.loadSettingsFromURL();
+		
+		viewer.setDescription("");
+		
+		viewer.loadGUI(() => {
+			viewer.setLanguage('en');
+			// $("#menu_appearance").next().show();
+			// $("#menu_tools").next().show();
+			$("#menu_scene").next().show();
+			$("#menu_clipping").next().show();
+			viewer.toggleSidebar();
+
+			let section = $(`
+				<h3 id="menu_meta" class="accordion-header ui-widget"><span>Metadata and Citation</span></h3>
+				<div class="accordion-content ui-widget pv-menu-list"></div>
+			`);
+			let content = section.last();
+
+			content.html(`
+			<div class="pv-menu-list">
+			<i>Potree and PotreeConverter code repositories were used to convert the .las files into a web-server hosted potree scene. For more information, navigate to the "About" section below.</i>
+				<br>
+				<br>				
+				Journal article: 
+				<p>
+				<a href="https://doi.org/10.1002/ecs2.4877" target="_blank"><img alt="DOI link" src="https://img.shields.io/badge/%20DOI%3A-10.1002%2Fecs2.4877-blue?logo=doi"></a>
+				<br></p>
+				<br>
+				Citation:
+				<br><p>
+				Harrison, G. R., A. Shrestha, E. K. Strand, J. W. Karl, A comparison and development of methods for estimating sagebrush shrub volume using drone imagery-derived point clouds, Ecosphere 2024. https://doi.org/10.1002/ecs2.4877</p>
+				<br>
+				GitHub:
+				<a href="https://github.com/gharrison159/UAVShrubVolume"  target="_blank"><img alt="DOI link" src="https://img.shields.io/badge/GitHub-https%3A%2F%2Fgithub.com%2Fgharrison159%2FUAVShrubVolume-blue?logo=github"></a>
+				
+				<br>
+				<br>
+				Funding:
+				<br><p>
+				This project was supported by a Joint Fire Science Program (JFSP) Graduate Research Innovation (GRIN) award number L23AC00043-01.
+				</p>
+			</div>
+			`);
+			section.first().click(() => content.slideToggle());
+			section.insertBefore($('#menu_about'));
+
+		});
+		
+		
+
+		Potree.loadPointCloud("./pointclouds/IndividualShrub/metadata.json", "IndividualShrub", e => {
+			let scene = viewer.scene;
+			let pointcloud = e.pointcloud;
+			
+			let material = pointcloud.material;
+			material.size = 7;
+			material.pointSizeType = Potree.PointSizeType.FIXED;
+			material.shape = Potree.PointShape.CIRCLE;
+			material.activeAttributeName = "rgba";
+			
+			scene.addPointCloud(pointcloud);
+
+			// Set initial camera position (your current view position, set from browser console with `console.log(viewer.scene.view.position);`)
+			viewer.scene.view.position.set(712040.2494303887, 4801718.013495982, 1470.6103699809357);
+
+			// Set the look-at target (pivot point where the camera is looking, set from browser console with `console.log(viewer.scene.view.getPivot());`)
+			viewer.scene.view.lookAt(712039.1155000002, 4801719.705500001, 1469.4655000001974);
+			
+			viewer.fitToScreen();
+		});
+
+		{ // MEASUREMENTS
+				{
+					let measurement = new Potree.Measure();
+					measurement.addMarker([712038.991, 4801719.260, 1469.148]);
+					measurement.addMarker([712039.057, 4801720.199, 1469.146]);
+					measurement.name = "D1 length";
+					measurement.showDistances = false; // 0.94 m
+					viewer.scene.addMeasurement(measurement);
+				}
+
+				{
+					let measurement = new Potree.Measure();
+					measurement.addMarker([712038.729, 4801719.744, 1469.153]);
+					measurement.addMarker([712039.376, 4801719.720, 1469.155]);
+					measurement.name = "D2 length";
+					measurement.showDistances = false; // 0.65 m
+					viewer.scene.addMeasurement(measurement);
+				}
+
+				{
+					let measurement = new Potree.Measure();
+					measurement.addMarker([712039.790, 4801719.610, 1468.808]);
+					measurement.addMarker([712039.023, 4801719.881, 1469.416]);
+					measurement.showHeight = true;
+					measurement.showDistances = false;
+					measurement.name = "Shrub height";
+					viewer.scene.addMeasurement(measurement);
+				}
+			}
+		
+		// Annotations
+
+		{
+					let elTitle = $(`
+						<span>
+							D1: 0.94 m
+						</span>
+					`);
+					elTitle.find("img[name=action_set_scene]").click( (event) => {
+						event.stopPropagation();
+						viewer.setScene(scene); 
+					});
+					elTitle.toString = () => "D1 length";
+
+					let a_D1 = new Potree.Annotation({
+						position: [712038.991, 4801719.260, 1469.148],
+						title: elTitle,
+						cameraPosition: [712041.452, 4801719.706, 1469.466],
+						cameraTarget: [712039.116, 4801719.706, 1469.466],
+						description: `D1: longest canopy width. Click on the label for side view.`
+					});
+
+					viewer.scene.annotations.add(a_D1);
+			} {
+					let elTitle = $(`
+						<span>
+							D2: 0.65 m
+						</span>
+					`);
+					elTitle.find("img[name=action_set_scene]").click( (event) => {
+						event.stopPropagation();
+						viewer.setScene(scene); 
+					});
+					elTitle.toString = () => "D2 length";
+
+					let a_D2 = new Potree.Annotation({
+						position: [712039.376, 4801719.720, 1469.155],
+						title: elTitle,
+						cameraPosition: [712039.116, 4801717.369, 1469.466],
+						cameraTarget: [712039.116, 4801719.706, 1469.466],
+						description: `D2: canopy width perpendicular to D1. Click on the label for side view.`
+					});
+
+					viewer.scene.annotations.add(a_D2);
+			} {
+					let elTitle = $(`
+						<span>
+							Height: 0.61 m
+						</span>
+					`);
+					elTitle.find("img[name=action_set_scene]").click( (event) => {
+						event.stopPropagation();
+						viewer.setScene(scene); 
+					});
+					elTitle.toString = () => "Height";
+
+					let a_D2 = new Potree.Annotation({
+						position: [712039.023, 4801719.881, 1469.416],
+						title: elTitle,
+						cameraPosition: [712039.116, 4801719.706, 1470.975],
+						cameraTarget: [712039.116, 4801719.706, 1469.466],
+						description: `Height of the shrub (yellow line). Click on the label for top-down view.`
+					});
+
+					viewer.scene.annotations.add(a_D2);
+			}
+
+		
+		
+	</script>
+	
+	
+  </body>
+</html>
