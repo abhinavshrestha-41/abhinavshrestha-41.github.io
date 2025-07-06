@@ -45,7 +45,7 @@ Drone data used for this MS thesis was collected for a broader project assessing
 </div>  
 <!-- Add a blank line after the HTML block so md format renders correctly -->  
 
-## Top-kill detection and assessment algorithms
+<h2 id="TopKillAlgorithm">Top-kill detection and assessment algorithms</h2> 
 
 There are two top-kill algorithms implemented for this project: `top2bin` and `bin2bin`. Both algorithms begin at the top of the tree and progresses downward. Details for the each algorithm are as follows:
 
