@@ -2,7 +2,7 @@
 layout: archive
 permalink: /m_s_thesis/
 title: "M.S. Thesis"
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
