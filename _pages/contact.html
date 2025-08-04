@@ -60,7 +60,8 @@ banner_title: "Contact Information"
     padding: 1rem;
   }
 </style>
-  
+
+<div style="border: 1px solid #444c56; background-color: #00FFFF; padding: 10px; border-radius: 5px; color: #c9d1d9;">
 <p><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>Email: <a href="mailto:{{ author.email }}" target="_blank">{{ author.email }}</a></p>
 <p><i class="fab fa-fw fa-github" aria-hidden="true"></i>GitHub: <a href="https://github.com/{{ author.github }}" target="_blank">https://github.com/{{ author.github }}</a></p>
 <p><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn: <a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank">https://www.linkedin.com/in/{{ author.linkedin }}</a></p>
@@ -68,4 +69,4 @@ banner_title: "Contact Information"
 <p><i class="fas fa-fw fa-graduation-cap"></i>Google Scholar: <a href="{{ author.googlescholar }}" target="_blank">{{ author.googlescholar }}</a></p>
 <p><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i>ResearchGate: <a href="{{ author.researchgate }}" target="_blank">{{ author.researchgate }}</a></p>
 <p><i class="ai ai-orcid-square ai-fw"></i>ORCID: <a href="{{ author.orcid }}" target="_blank">{{ author.orcid }}</a></p>
-
+</div>
