@@ -23,6 +23,8 @@ author_profile: false
   }
 </style>
 
+<h1>Publications, Presentations, Datasets, and Repositories</h1>
+
 ### Journal articles
 
 **Shrestha, A.**; Hicke, J.A.; Meddens, A.J.H.; Karl, J.W.; Stahl, A.T. Evaluating a Novel Approach to Detect the Vertical Structure of Insect Damage in Trees Using Multispectral and Three-Dimensional Data from Drone Imagery in the Northern Rocky Mountains, USA. *Remote Sensing*, 2024, 16, 1365. <a href="https://doi.org/10.3390/rs16081365" target="_blank">https://doi.org/10.3390/rs16081365</a>
@@ -56,6 +58,14 @@ Hicke, J. A., **A. Shrestha**, A. Meddens, A. Stahl, B. Bright, A. Hudak, R. Han
 Obiesie, C., **Shrestha, A.**, & Sanchini, P. Distribution of Oaks (Quercus spp.) in Forests of Palisades-Kepler Park, Linn County, Iowa, poster presentation, *Coe College Student Research Symposium*, Coe College, Cedar Rapids, IA, 2018.
 
 Yoshida, K., **Shrestha, A.**, & Chihak, B. How Roadway Design Affects Cyclist-Motorist Interactions, poster presentation, *Tri-State Undergraduate Psychology Research Conference*, Loras College, Dubuque, IA, 2018.
+
+### Datasets
+**Shrestha, A.**, and Harrison, G.R., 2024. gharrison159/UAVShrubVolume: FinalMS (v3.0). Zenodo. <a href="https://doi.org/10.5281/zenodo.11371058" target="_blank">https://doi.org/10.5281/zenodo.11371058</a>
+
+Zimmer, Scott N.; Houtman, Rachel M.; Leatherman, Lila S. T.; Housman, Ian W.; **Shrestha, Abhinav**; Shaw, John D.; Riley, Karin L. 2025. TreeMap 2020 CONUS: A tree-level model of the forests of the conterminous United States circa 2020. Fort Collins, CO: Forest Service Research Data Archive. <a href="https://doi.org/10.2737/RDS-2025-0031" target="_blank">https://doi.org/10.2737/RDS-2025-0031</a>
+
+Houtman, Rachel M.; Leatherman, Lila S. T.; Zimmer, Scott N.; Housman, Ian W.; **Shrestha, Abhinav**; Shaw, John D.; Riley, Karin L. 2025. TreeMap 2022 CONUS: A tree-level model of the forests of the conterminous United States circa 2022. Fort Collins, CO: Forest Service Research Data Archive. <a href="https://doi.org/10.2737/RDS-2025-0032" target="_blank">https://doi.org/10.2737/RDS-2025-0032</a>
+
 
 <h2 id="GitHubRepositories"><img src="../images/github.png" alt="GitHub-Icon" width="30" height="30" style="vertical-align: middle;"> GitHub Repositories</h2> 
 
