@@ -10,20 +10,7 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-    
-    {% if page.banner_image %}
-      <div class="custom-banner" style="background-image: url('{{ page.banner_image }}'); height: {{ page.banner_height | default: '40vh' }}">
-        <h1>{{ page.title }}</h1>
-      </div>
-    {% endif %}
-
-        <style>
+     <style>
       .custom-banner {
         width: 100vw;
         margin-left: calc(-1 * (100vw - 100%) / 2);
@@ -51,6 +38,22 @@ layout: compress
         }
       }
     </style>
+
+
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+    
+    {% if page.banner_image %}
+      <div class="custom-banner" style="background-image: url('{{ page.banner_image }}'); height: {{ page.banner_height | default: '40vh' }}">
+        <h1>{{ page.banner_title }}</h1>
+      </div>
+    {% endif %}
+
+       
 
 
 
