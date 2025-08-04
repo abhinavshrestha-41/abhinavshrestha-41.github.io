@@ -1,5 +1,5 @@
 ---
-layout: archive2
+layout: base
 permalink: /m_s_thesis/
 title: "M.S. Thesis"
 author_profile: false
@@ -81,3 +81,14 @@ True-color render, random forest classification of point cloud and top-kill algo
 </div>
 
 <hr>
+
+
+<style>
+/* Apply only to this page */
+.page__content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+</style>
+
