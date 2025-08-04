@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 permalink: /m_s_thesis/
 title: "M.S. Thesis"
 author_profile: false
