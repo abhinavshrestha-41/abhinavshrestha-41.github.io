@@ -3,6 +3,9 @@ layout: default
 permalink: /m_s_thesis/
 title: "M.S. Thesis"
 author_profile: false
+banner_image: /files/MSThesisBanner.jpg
+banner_height: 40vh
+banner_title: "MS Thesis"
 ---
 
 <style>

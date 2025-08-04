@@ -27,9 +27,10 @@ layout: compress
     .banner-overlay {
       background: rgba(0, 0, 0, 0.3);           /* dark semi-transparent layer */
       backdrop-filter: blur(4px);              /* actual blur effect */
-      -webkit-backdrop-filter: blur(8px);      /* for Safari */
-      padding: 0.5rem 1rem;
-      border-radius: 0.2rem;
+      -webkit-backdrop-filter: blur(4px);      /* for Safari */
+      padding: 0.25rem 0.5rem;                 /* smaller vertical & horizontal padding */
+      border-radius: 0.1rem;                   /* tighter corners */
+      display: inline-block;                   /* shrink box to fit content */
     }
 
     .banner-overlay h1 {
