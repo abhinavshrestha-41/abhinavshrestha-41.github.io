@@ -4,6 +4,15 @@ permalink: /m_s_thesis/
 title: "M.S. Thesis"
 author_profile: false
 ---
+
+<style>
+/* Make content full width just for this page */
+.page__content {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 ### Combining Multispectral and Three-Dimensional Data From Drone Imagery to Detect Forest Insect Damage: An Evaluation of a Novel Approach to Identify the Vertical Structure of Damage in Trees in the Northern Rocky Mountains, USA
 
 Project description: My M.S. research project focused on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. The project explored the utlity of point cloud data derived from Structure for Motion (SfM) for the classification and characterization of vertical tree damage of a UAS mission area. I used tools such as ArcGIS Pro, Agisoft Metashape, CloudCompare, and R and Python programming to create new algorithms and establish a novel methodology.   
@@ -81,14 +90,4 @@ True-color render, random forest classification of point cloud and top-kill algo
 </div>
 
 <hr>
-
-
-<style>
-/* Apply only to this page */
-.page__content {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-</style>
 
