@@ -7,6 +7,15 @@ redirect_from:
   - /resume
 ---
 {% include base_path %}
+
+<style>
+  /* Page specific styles */
+  .page__content {
+    max-width: 900px;  /* or 100% if you want full width */
+    margin: 0 auto;
+    padding: 1rem;
+  }
+</style>
 <body>
   <a href="/files/AbhinavShrestha_CV.pdf" download>Click here to download a pdf copy</a>
   <br>

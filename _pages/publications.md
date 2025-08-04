@@ -14,6 +14,15 @@ author_profile: false
 
 <!-- ## Publications -->
 
+<style>
+  /* Page specific styles */
+  .page__content {
+    max-width: 900px;  /* or 100% if you want full width */
+    margin: 0 auto;
+    padding: 1rem;
+  }
+</style>
+
 ### Journal articles
 
 **Shrestha, A.**; Hicke, J.A.; Meddens, A.J.H.; Karl, J.W.; Stahl, A.T. Evaluating a Novel Approach to Detect the Vertical Structure of Insect Damage in Trees Using Multispectral and Three-Dimensional Data from Drone Imagery in the Northern Rocky Mountains, USA. *Remote Sensing*, 2024, 16, 1365. <a href="https://doi.org/10.3390/rs16081365" target="_blank">https://doi.org/10.3390/rs16081365</a>
