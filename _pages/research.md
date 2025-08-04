@@ -1,18 +1,9 @@
 ---
-layout: archive
+layout: archive2
 permalink: /m_s_thesis/
 title: "M.S. Thesis"
 author_profile: false
 ---
-
-<style>
-/* Make content full width just for this page */
-.page__content {
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-</style>
 
 ### Combining Multispectral and Three-Dimensional Data From Drone Imagery to Detect Forest Insect Damage: An Evaluation of a Novel Approach to Identify the Vertical Structure of Damage in Trees in the Northern Rocky Mountains, USA
 
