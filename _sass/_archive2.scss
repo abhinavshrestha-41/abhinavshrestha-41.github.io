@@ -4,10 +4,7 @@
 
 .archive2 {
   margin-bottom: 2em;
-  max-width: 900px; // or whatever suits your design
-  margin: 0 auto;
-  padding: 0 1rem;
-
+ 
   @include breakpoint($medium) {
     @include span(12 of 12);
   }
