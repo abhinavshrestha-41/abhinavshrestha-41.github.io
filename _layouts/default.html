@@ -11,7 +11,7 @@ layout: compress
     {% include head/custom.html %}
     
   <style>
-    .custom-banner {
+      .custom-banner {
       width: 100vw;
       margin-left: calc(-1 * (100vw - 100%) / 2);
       margin-right: calc(-1 * (100vw - 100%) / 2);
@@ -25,14 +25,14 @@ layout: compress
     }
 
     .banner-overlay {
-      background: rgba(0, 0, 0, 0.3); /* semi-transparent dark background */
-      backdrop-filter: blur(10px);     /* blur what's behind this box */
-      -webkit-backdrop-filter: blur(4px); /* for Safari */
+      background: rgba(0, 0, 0, 0.3);           /* dark semi-transparent layer */
+      backdrop-filter: blur(8px);              /* actual blur effect */
+      -webkit-backdrop-filter: blur(8px);      /* for Safari */
       padding: 1rem 2rem;
       border-radius: 0.5rem;
     }
 
-    .custom-banner h1 {
+    .banner-overlay h1 {
       color: white;
       font-size: 2.5rem;
       margin: 0;
@@ -41,10 +41,11 @@ layout: compress
     }
 
     @media (max-width: 600px) {
-      .custom-banner h1 {
+      .banner-overlay h1 {
         font-size: 1.8rem;
       }
     }
+
   </style>
 
 
@@ -57,7 +58,9 @@ layout: compress
     
     {% if page.banner_image %}
       <div class="custom-banner" style="background-image: url('{{ page.banner_image }}'); height: {{ page.banner_height | default: '40vh' }}">
-        <h1>{{ page.banner_title }}</h1>
+          <div class="banner-overlay">
+              <h1>{{ page.banner_title | default: page.title }}</h1>
+          </div>
       </div>
     {% endif %}
 
