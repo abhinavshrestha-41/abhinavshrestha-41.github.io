@@ -18,15 +18,16 @@ banner_title: "MS Research, University of Idaho"
 </style>
 
 
-**MS Thesis title:** [*Combining Multispectral and Three-Dimensional Data From Drone Imagery to Detect Forest Insect Damage: An Evaluation of a Novel Approach to Identify the Vertical Structure of Damage in Trees in the Northern Rocky Mountains, USA.*](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/01ALLIANCE_UID/1km8i79/cdi_proquest_journals_2903210004) 
+<b>MS Thesis title:</b> <a href='https://alliance-uidaho.primo.exlibrisgroup.com/permalink/01ALLIANCE_UID/1km8i79/cdi_proquest_journals_2903210004' target='_blank'><i>Combining Multispectral and Three-Dimensional Data From Drone Imagery to Detect Forest Insect Damage: An Evaluation of a Novel Approach to Identify the Vertical Structure of Damage in Trees in the Northern Rocky Mountains, USA.</i></a>
 
 Project description: My M.S. research project focused on evaluating methods of detecting forest insect damage and mortality using Unmanned Aerial Systems (UAS)-derived data products in conifer forests of the western United States. The project explored the utlity of point cloud data derived from Structure for Motion (SfM) for the classification and characterization of vertical tree damage of a UAS mission area. I used tools such as ArcGIS Pro, Agisoft Metashape, CloudCompare, and R and Python programming to create new algorithms and establish a novel methodology.   
 
 <div style="border: 1px solid #81c784; background-color: #edf7ed; padding: 15px; border-radius: 5px; color: #333; font-size: 1em;">
 <b>The research for this project was conducted in the ancestral homelands of the Ksanka (Kootenai), Ql̓ispé (Pend d’Oreille), and Sélish (Salish) tribes of western Montana.</b>
 </div>
-<br>
-<p>Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see details in the ['Research Portfolio'](/portfolio/) page*).</p>
+<br>  
+
+Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see details in the ['Research Portfolio'](/portfolio/) page*).
 
 ## Journal article
 
