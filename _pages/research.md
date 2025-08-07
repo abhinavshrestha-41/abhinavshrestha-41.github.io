@@ -27,7 +27,7 @@ Project description: My M.S. research project focused on evaluating methods of d
 </div>
 <br>  
 
-Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see details in the ['Research Portfolio'](/portfolio/) page*).
+Drone data used for this MS thesis was collected for a broader project assessing tree damage funded by the NASA Commercial SmallSat Data Acquisition Program (NASA CSDA, award #80NSSC21K115) (*see details in the ['Research Portfolio'](/portfolio/#NASA_CSDA) page*).
 
 ## Journal article
 
