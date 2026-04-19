@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p>Welcome to my GitHub Academic Page! My name is Abhinav Shrestha, I go by 'Abhi' for short (pronouced /ɑː-biː/; अभिनव in Nepali). I am a PhD researcher at the <a href = "https://www.lss.ls.tum.de/en/edfm/start/" target="_blank"> Chair of Ecosystem Dynamics and Forest Management in Mountain Forests</a> at the <a href = "https://www.ls.tum.de/en/ls/home/" target="_blank">Technische Universität München (Technical University of Munich, TUM) School of Life Sciences</a>.</p>
+<p>Welcome to my GitHub Academic Page! My name is Abhinav Shrestha, I go by 'Abhi' for short (pronouced /ɑː-biː/; अभिनव in Nepali). I am a PhD researcher at the Chair of Ecosystem Dynamics and Forest Management in Mountain Forests (<a href = "https://www.lss.ls.tum.de/en/edfm/start/" target="_blank">EDFM</a>) at the Technische Universität München (Technical University of Munich, TUM) <a href = "https://www.ls.tum.de/en/ls/home/" target="_blank">School of Life Sciences</a>.</p>
 
 <p>Academic background: I am a M.S. graduate from the <a href = "https://www.uidaho.edu/" target="_blank">University of Idaho</a> (2024), where I worked with <a href = "https://webpages.uidaho.edu/~jhicke/" target="_blank">Dr. Jeffrey Hicke</a> in the Ecological Geography lab,  <a href = "https://www.uidaho.edu/sci/ess" target="_blank">Department of Earth and Spatial Sciences</a>.</p>
 
@@ -20,7 +20,7 @@ redirect_from:
 <b>Professional Role</b>: Geospatial and remote sensing specialist at RedCastle Resources, Inc. <br>I am currently working as a federal contractor for the USDA Forest Service's <a href="https://www.fs.usda.gov/about-agency/gtac" target="_blank">Geospatial Technology and Applications Center (GTAC)</a>. 
 </div> -->
 
-*For more information on my professional and academic experience, please navigate to the [CV](/cv/) page.*
+> For more information on my professional and academic experience, please navigate to the [CV](/cv/) page.
 
 <hr>
 
@@ -30,7 +30,7 @@ redirect_from:
 
 Current research focuses on studying the changes and function of mountain forests in the Alps using modeling, remote sensing and geospatial analyses. The core project I will be working: TUM <a href="https://www.lss.ls.tum.de/en/zaw/news/" target="_blank">Zentrum für Alpine Waldwirtschaft, ZAW (TUM Center for Alpine Forest Management)</a>
 
-🚧 The research and project are in the early development phase ⏳. Updates wil be made as they are available! 🚧
+🚧 The research and project are in the early development phase ⏳. Updates will be made as they are available! 🚧
 
 ## M.S. Research
 
