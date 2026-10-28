@@ -50,6 +50,7 @@ Drone data used for this MS thesis was collected for a broader project assessing
   <li>Double-click on the annotations (e.g., "Top-killed tree") to zoom to the tree.</li>
 </ul>
 
+<b><i>Apologies if the point cloud viewer is not working. The issue is currently under troubleshooting. Please come back later to check out the point clouds!</i></b>
 
 <blockquote>To open the Potree viewer in a new tab (full-screen), click <a href="/files/potree/html/MSThesisRFClass.html" target="_blank">here</a>.</blockquote>
 
